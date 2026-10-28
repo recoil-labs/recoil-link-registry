@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 38833
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Igra
 domainId: 38833
 gasCurrencyCoinGeckoId: wrapped-ikas-zealous-swap

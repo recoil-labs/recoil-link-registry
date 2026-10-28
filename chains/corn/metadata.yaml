@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/21000000/etherscan/api
     family: routescan
@@ -15,8 +12,6 @@ chainId: 21000000
 displayName: Corn
 domainId: 21000000
 gasCurrencyCoinGeckoId: bitcoin
-index:
-  from: 55636
 name: corn
 nativeToken:
   decimals: 18

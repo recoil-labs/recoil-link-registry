@@ -5,9 +5,6 @@ blockExplorers:
     name: storyexplorer
     url: https://testnet.storyscan.xyz
 chainId: 1513
-deployer:
-  name: atuser14
-  url: https://github.com/atuser14
 displayName: Story Testnet
 domainId: 1513
 isTestnet: true

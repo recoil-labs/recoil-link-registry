@@ -16,9 +16,6 @@ blocks:
 canonicalAsset: utia
 chainId: celestia
 contractAddressBytes: 32
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Celestia
 # Generated from: console.log(parseInt('0x'+Buffer.from('CELE').toString('hex')))
 domainId: 1128614981
@@ -28,9 +25,6 @@ gasPrice:
   denom: utia
 grpcUrls:
   - http: https://celestia-grpc.publicnode.com:443
-index:
-  chunk: 10
-  from: 6680339
 name: celestia
 nativeToken:
   decimals: 6

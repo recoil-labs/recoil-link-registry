@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer-api.morphl2.io/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 4
   reorgPeriod: 5
 chainId: 2818
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Morph
 domainId: 2818
 gasCurrencyCoinGeckoId: ethereum

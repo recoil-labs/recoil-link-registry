@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 8765
-deployer:
-  name: Warden Labs
-  url: https://wardenprotocol.org
 displayName: Warden Protocol
 domainId: 8765
 gasCurrencyCoinGeckoId: warden-2

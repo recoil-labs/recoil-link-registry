@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.flame.dawn-1.astria.org/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 1
 chainId: 16604737732183
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Flame Dawn-1 Testnet
 displayNameShort: Flame Testnet
 domainId: 1660473773

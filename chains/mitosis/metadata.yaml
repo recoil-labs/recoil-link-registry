@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 124816
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Mitosis
 domainId: 124816
 gasCurrencyCoinGeckoId: mitosis

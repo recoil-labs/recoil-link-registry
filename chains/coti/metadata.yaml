@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 5
 chainId: 2632500
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Coti
 domainId: 2632500
 gasCurrencyCoinGeckoId: coti

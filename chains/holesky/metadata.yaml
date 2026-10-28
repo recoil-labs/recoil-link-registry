@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated, unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api-holesky.etherscan.io/api
     family: etherscan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 13
   reorgPeriod: 2
 chainId: 17000
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Holesky
 domainId: 17000
 gasCurrencyCoinGeckoId: ethereum

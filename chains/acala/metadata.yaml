@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 13
   reorgPeriod: finalized
 chainId: 787
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Acala EVM
 domainId: 787
 gasCurrencyCoinGeckoId: acala

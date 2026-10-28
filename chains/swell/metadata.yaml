@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.swellnetwork.io/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 1923
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Swell
 domainId: 1923
 gasCurrencyCoinGeckoId: ethereum

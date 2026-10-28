@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=59144
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=59144
     family: etherscan
     name: LineaScan
     url: https://lineascan.build
@@ -14,9 +13,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 5
 chainId: 59144
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Linea
 domainId: 59144
 gasCurrencyCoinGeckoId: ethereum

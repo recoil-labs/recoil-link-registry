@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://verification-explorer.sophon.xyz/contract_verification
     family: etherscan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 0
 chainId: 50104
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Sophon
 domainId: 50104
 gasCurrencyCoinGeckoId: sophon

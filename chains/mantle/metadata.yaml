@@ -13,9 +13,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 2
 chainId: 5000
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Mantle
 domainId: 5000
 gasCurrencyCoinGeckoId: mantle

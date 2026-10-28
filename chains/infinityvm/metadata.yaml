@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blocks:
   confirmations: 1
   estimateBlockTime: 1
@@ -10,8 +7,6 @@ chainId: 1032009
 displayName: Infinity VM
 domainId: 1032009
 gasCurrencyCoinGeckoId: infinityvm
-index:
-  from: 157889
 name: infinityvm
 nativeToken:
   decimals: 18

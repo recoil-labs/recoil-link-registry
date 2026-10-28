@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 6122
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Tea
 domainId: 6122
 gasCurrencyCoinGeckoId: tea-protocol

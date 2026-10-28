@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api-explorer-verify.testnet.abs.xyz/contract_verification
     family: etherscan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 0
 chainId: 11124
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Abstract Testnet
 domainId: 11124
 isTestnet: true

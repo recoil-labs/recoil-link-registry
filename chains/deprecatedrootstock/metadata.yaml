@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://rootstock.blockscout.com/api
     family: blockscout

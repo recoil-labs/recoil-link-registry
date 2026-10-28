@@ -5,9 +5,6 @@ blockExplorers:
     name: Meter Testnet Explorer
     url: https://scan.meter.io
 chainId: 83
-deployer:
-  name: JaunePomme
-  url: https://github.com/JaunePomme
 displayName: Meter testnet
 domainId: 83
 isTestnet: true

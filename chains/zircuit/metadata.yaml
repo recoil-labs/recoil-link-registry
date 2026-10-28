@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.zircuit.com/api/contractVerifyHardhat
     family: etherscan
@@ -11,9 +8,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 300
 chainId: 48900
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Zircuit
 domainId: 48900
 gasCurrencyCoinGeckoId: ethereum

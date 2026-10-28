@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/3637/etherscan/api
     family: routescan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: 5
 chainId: 3637
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Botanix
 domainId: 3637
 gasCurrencyCoinGeckoId: bitcoin

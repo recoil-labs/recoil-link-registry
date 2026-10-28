@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.bsquared.network/api
     family: etherscan
@@ -11,9 +8,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 5
 chainId: 223
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: B² Network
 domainId: 223
 gasCurrencyCoinGeckoId: bitcoin

@@ -5,9 +5,6 @@ blockExplorers:
     name: Canto Explorer
     url: https://explorer.plexnode.wtf
 chainId: 7700
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Canto
 domainId: 7700
 isTestnet: false

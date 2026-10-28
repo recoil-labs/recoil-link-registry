@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=56
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=56
     family: etherscan
     name: BscScan
     url: https://bscscan.com
@@ -10,9 +9,6 @@ blocks:
   estimateBlockTime: 0.45
   reorgPeriod: finalized
 chainId: 56
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Binance Smart Chain
 displayNameShort: Binance
 domainId: 56

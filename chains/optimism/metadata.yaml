@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=10
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=10
     family: etherscan
     name: Etherscan
     url: https://optimistic.etherscan.io
@@ -18,9 +17,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 10
 chainId: 10
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Optimism
 domainId: 10
 gasCurrencyCoinGeckoId: ethereum

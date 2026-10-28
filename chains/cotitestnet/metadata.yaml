@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 1
 chainId: 7082400
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Coti Testnet
 domainId: 7082400
 gasCurrencyCoinGeckoId: coti

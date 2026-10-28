@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.ont.io/api
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 58
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Ontology
 domainId: 58
 gasCurrencyCoinGeckoId: ong

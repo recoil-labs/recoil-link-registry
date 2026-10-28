@@ -9,13 +9,8 @@ blocks:
   estimateBlockTime: 0.1
   reorgPeriod: 1
 chainId: 50312
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Somnia Testnet
 domainId: 50312
-index:
-  from: 12593277
 isTestnet: true
 name: somniatestnet
 nativeToken:

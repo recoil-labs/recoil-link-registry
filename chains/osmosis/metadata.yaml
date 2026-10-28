@@ -12,9 +12,6 @@ blocks:
 canonicalAsset: uosmo
 chainId: osmosis-1
 contractAddressBytes: 32
-deployer:
-  name: Mitosis
-  url: https://mitosis.org
 displayName: Osmosis
 domainId: 875
 gasCurrencyCoinGeckoId: osmosis
@@ -23,9 +20,6 @@ gasPrice:
   denom: uosmo
 grpcUrls:
   - http: https://osmosis-grpc.publicnode.com:443
-index:
-  chunk: 10
-  from: 14389169
 isTestnet: false
 name: osmosis
 nativeToken:

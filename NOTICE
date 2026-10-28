@@ -1,0 +1,10 @@
+Recoil Link Registry
+Copyright 2026 Recoil Labs
+
+This repository is a modified version of the Hyperlane Registry
+(https://github.com/hyperlane-xyz/hyperlane-registry), licensed under the MIT
+License, Copyright (c) 2023 Abacus Works Inc. See LICENSE.md.
+
+Recoil Labs removed Hyperlane's deployment data (contract addresses, warp
+routes, deployer metadata and block explorer API keys) and keeps the chain
+metadata. Changes are recorded in this repository's git history.

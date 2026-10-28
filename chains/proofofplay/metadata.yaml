@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated, unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.apex.proofofplay.com/api/eth-rpc
     family: blockscout
@@ -11,14 +8,9 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 70700
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Proof of Play Apex
 domainId: 70700
 gasCurrencyCoinGeckoId: ethereum
-index:
-  from: 32018468
 name: proofofplay
 nativeToken:
   decimals: 18

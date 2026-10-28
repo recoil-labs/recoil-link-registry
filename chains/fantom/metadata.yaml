@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api.ftmscan.com/api
     family: etherscan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 250
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Fantom Opera
 domainId: 250
 gasCurrencyCoinGeckoId: fantom

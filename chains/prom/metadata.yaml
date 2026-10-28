@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://prom-blockscout.eu-north-2.gateway.fm/api/eth-rpc
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: 5
 chainId: 227
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Prom
 domainId: 227
 gasCurrencyCoinGeckoId: prometeus

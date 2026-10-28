@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api-sepolia.scrollscan.com/api
     family: etherscan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 1
 chainId: 534351
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Scroll Sepolia
 domainId: 534351
 gasCurrencyCoinGeckoId: ethereum

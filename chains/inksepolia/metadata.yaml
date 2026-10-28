@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer-sepolia.inkonchain.com/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 1
 chainId: 763373
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Ink Sepolia
 domainId: 763373
 gnosisSafeTransactionServiceUrl: https://kraken-sepolia.superchain.safe.protofire.io

@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 12
   reorgPeriod: 14
 chainId: 4201
-deployer:
-  name: LUKSO Team
-  url: https://lukso.network
 displayName: LUKSO Testnet
 domainId: 4201
 isTestnet: true

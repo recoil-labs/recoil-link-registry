@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 173
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: ENI
 domainId: 173
 gasCurrencyCoinGeckoId: eniac-network

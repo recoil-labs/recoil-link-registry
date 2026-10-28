@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api.routescan.io/v2/network/testnet/evm/80069/etherscan/api
     family: routescan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 80069
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Berachain Bepolia
 displayNameShort: Bepolia
 domainId: 80069

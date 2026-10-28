@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer-endurance.fusionist.io/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 12
   reorgPeriod: 15
 chainId: 648
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Endurance
 domainId: 648
 gasCurrencyCoinGeckoId: endurance

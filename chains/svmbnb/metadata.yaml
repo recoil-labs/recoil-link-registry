@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.svmbnbmainnet.soo.network
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 0.4
   reorgPeriod: 0
 chainId: 574456
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: svmBNB
 domainId: 574456
 gasCurrencyCoinGeckoId: binancecoin

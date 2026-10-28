@@ -8,9 +8,6 @@ blocks:
   confirmations: 1
   estimateBlockTime: 1
 chainId: 65100003
-deployer:
-  name: M8B
-  url: https://m8b.dev
 displayName: Autonity Piccadilly
 displayNameShort: Piccadilly
 domainId: 65100003

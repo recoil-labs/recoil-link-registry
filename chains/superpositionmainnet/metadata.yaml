@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.superposition.so/api
     family: blockscout
@@ -12,14 +9,9 @@ blocks:
   estimateBlockTime: 60
   reorgPeriod: 0
 chainId: 55244
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Superposition
 domainId: 1000055244
 gasCurrencyCoinGeckoId: ethereum
-index:
-  from: 2743
 name: superpositionmainnet
 nativeToken:
   decimals: 18

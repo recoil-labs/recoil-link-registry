@@ -1,8 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
-bech32Prefix: stride
 blockExplorers:
   - apiUrl: https://apis.mintscan.io/v1/stride
     family: other
@@ -15,9 +11,6 @@ blocks:
 canonicalAsset: ustrd
 chainId: stride-1
 contractAddressBytes: 32
-deployer:
-  name: Stride Labs
-  url: https://www.stride.zone
 displayName: Stride
 domainId: 745
 gasCurrencyCoinGeckoId: stride
@@ -26,9 +19,6 @@ gasPrice:
   denom: ustrd
 grpcUrls:
   - http: https://stride-grpc.publicnode.com:443
-index:
-  chunk: 5
-  from: 9152000
 name: stride
 nativeToken:
   decimals: 6

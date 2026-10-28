@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 1
 chainId: 747474
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Katana
 domainId: 747474
 gasCurrencyCoinGeckoId: ethereum

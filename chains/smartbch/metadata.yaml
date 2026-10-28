@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 15
 chainId: 10000
-deployer:
-  name: Goblins Cash
-  url: https://goblins.cash
 displayName: Smartbch
 domainId: 10000
 isTestnet: false

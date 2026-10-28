@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://www.megaexplorer.xyz/api
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 1
 chainId: 6342
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: MegaETH Testnet
 domainId: 6342
 isTestnet: true

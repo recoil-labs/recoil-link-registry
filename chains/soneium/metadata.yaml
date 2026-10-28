@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 1868
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Soneium
 domainId: 1868
 gasCurrencyCoinGeckoId: ethereum

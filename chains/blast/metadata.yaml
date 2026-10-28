@@ -1,11 +1,7 @@
 ---
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=81457
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=81457
     family: etherscan
     name: BlastScan
     url: https://blastscan.io
@@ -18,9 +14,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 81457
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Blast
 domainId: 81457
 gasCurrencyCoinGeckoId: ethereum

@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://inevm.calderaexplorer.xyz/api
     family: blockscout
@@ -12,15 +9,10 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 3
 chainId: 2525
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Injective EVM
 displayNameShort: inEVM
 domainId: 2525
 gasCurrencyCoinGeckoId: injective-protocol
-index:
-  from: 37
 name: inevm
 nativeToken:
   decimals: 18

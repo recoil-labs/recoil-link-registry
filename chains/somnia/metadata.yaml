@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 0.1
   reorgPeriod: 10
 chainId: 5031
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Somnia
 domainId: 5031
 gasCurrencyCoinGeckoId: somnia

@@ -1,7 +1,0 @@
-{
-  "name": "Wrapped BTC",
-  "symbol": "WBTC",
-  "description": "Warp Route WBTC",
-  "image": "https://raw.githubusercontent.com/hyperlane-xyz/hyperlane-registry/refs/heads/main/deployments/warp_routes/WBTC/logo.svg",
-  "attributes": []
-}

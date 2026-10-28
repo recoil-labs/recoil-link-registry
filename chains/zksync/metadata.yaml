@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://zksync2-mainnet-explorer.zksync.io/contract_verification
     family: etherscan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 0
 chainId: 324
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: zkSync
 domainId: 324
 gasCurrencyCoinGeckoId: ethereum

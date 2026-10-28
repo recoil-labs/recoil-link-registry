@@ -1,8 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
-bech32Prefix: milk
 blocks:
   confirmations: 1
   estimateBlockTime: 6
@@ -10,9 +6,6 @@ blocks:
 canonicalAsset: umilk
 chainId: ceers-2112
 contractAddressBytes: 32
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Milkyway Testnet
 # Generated from: console.log(parseInt('0x'+Buffer.from('CEERS').toString('hex')) % 4_294_967_295)
 domainId: 1162171030
@@ -21,9 +14,6 @@ gasPrice:
   denom: umilk
 grpcUrls:
   - http: https://grpc.testnet.milkyway.zone/
-index:
-  chunk: 10
-  from: 2449750
 isTestnet: true
 name: milkywaytestnet
 nativeToken:

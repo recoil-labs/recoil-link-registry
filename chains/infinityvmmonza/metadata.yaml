@@ -1,19 +1,11 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blocks:
   confirmations: 1
   estimateBlockTime: 1
   reorgPeriod: 1
 chainId: 96025
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Infinity VM Monza Testnet
 domainId: 96025
-index:
-  from: 338182
 isTestnet: true
 name: infinityvmmonza
 nativeToken:

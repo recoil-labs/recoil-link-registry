@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api.btrscan.com/scan/api
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 20
 chainId: 200901
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Bitlayer
 domainId: 200901
 gasCurrencyCoinGeckoId: bitcoin

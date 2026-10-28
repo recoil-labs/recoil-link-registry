@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.gravity.xyz/api
     family: blockscout
@@ -12,15 +9,10 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 1625
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Gravity Alpha Mainnet
 displayNameShort: Gravity
 domainId: 1625
 gasCurrencyCoinGeckoId: g-token
-index:
-  from: 13374779
 name: gravity
 nativeToken:
   decimals: 18

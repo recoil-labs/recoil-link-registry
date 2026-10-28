@@ -12,9 +12,6 @@ blocks:
 canonicalAsset: ukyve
 chainId: kyve-1
 contractAddressBytes: 32
-deployer:
-  name: KYVE
-  url: https://kyve.network
 displayName: KYVE
 # Generated from: console.log(parseInt('0x'+Buffer.from('KYVE').toString('hex')))
 domainId: 1264145989
@@ -24,9 +21,6 @@ gasPrice:
   denom: ukyve
 grpcUrls:
   - http: https://grpc-raw.kyve.network
-index:
-  chunk: 10
-  from: 11592376
 name: kyve
 nativeToken:
   decimals: 6

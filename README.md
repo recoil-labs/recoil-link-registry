@@ -1,6 +1,22 @@
-# Hyperlane Registry
+# Recoil Link Registry
 
-A collection of configs, artifacts, and schemas for Hyperlane. See the [documentation](https://docs.hyperlane.xyz/docs/reference/registries) for more information.
+Chain metadata and deployment addresses for [Recoil Link](https://github.com/recoil-labs/recoil-link), the interchain messaging protocol by Recoil Labs. The `rlink` CLI and the Recoil Link SDK read this repository by default.
+
+## Status
+
+- **Chains:** metadata for 348 chains (RPC URLs, chain IDs, native tokens, block explorers), inherited from the Hyperlane registry.
+- **Deployments:** none yet. Hyperlane's contract addresses, warp routes, deployer info and explorer API keys have been removed, so Recoil Link tooling can never use Hyperlane's contracts by accident. `addresses.yaml` files are added per chain as Recoil Link deploys.
+
+## Keeping in sync with upstream
+
+This is a fork of [hyperlane-xyz/hyperlane-registry](https://github.com/hyperlane-xyz/hyperlane-registry) (MIT). To pull new chains and metadata fixes:
+
+```sh
+git fetch upstream && git merge upstream/main
+python3 scripts/recoil-link/strip-hyperlane-deployments.py
+```
+
+The script is idempotent and only deletes files identical to the upstream copy, so Recoil Link's own `addresses.yaml` files and warp routes are kept.
 
 ## Contents
 

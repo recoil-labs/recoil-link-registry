@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 12
   reorgPeriod: 15
 chainId: 42
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: LUKSO
 domainId: 42
 gasCurrencyCoinGeckoId: lukso-token-2

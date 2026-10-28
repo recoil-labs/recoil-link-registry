@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://vanascan.io/api/eth-rpc
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: 5
 chainId: 1480
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Vana
 domainId: 1480
 gasCurrencyCoinGeckoId: vana

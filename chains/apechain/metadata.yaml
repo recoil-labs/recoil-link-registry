@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://apescan.io/api
+  - apiUrl: https://apescan.io/api
     family: etherscan
     name: Apescan
     url: https://apescan.io
@@ -14,14 +13,9 @@ blocks:
   estimateBlockTime: 0.2
   reorgPeriod: 5
 chainId: 33139
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: ApeChain
 domainId: 33139
 gasCurrencyCoinGeckoId: apecoin
-index:
-  from: 1759561
 name: apechain
 nativeToken:
   decimals: 18

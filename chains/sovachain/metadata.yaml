@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated, unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.sova.io/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 100021
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Sova
 domainId: 1000100021
 gasCurrencyCoinGeckoId: ethereum

@@ -1,10 +1,6 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
-  - apiKey: V9PP7AFQF5Q6GJSQQ5YS2UBN7GI8QCA443
-    apiUrl: https://api-testnet.sonicscan.org/api
+  - apiUrl: https://api-testnet.sonicscan.org/api
     family: etherscan
     name: Sonic Blaze Testnet Explorer
     url: https://testnet.sonicscan.org
@@ -13,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 1
 chainId: 57054
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Sonic Blaze Testnet
 displayNameShort: Sonic Blaze
 domainId: 57054

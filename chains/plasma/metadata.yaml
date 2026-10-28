@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 10
 chainId: 9745
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Plasma
 domainId: 9745
 gasCurrencyCoinGeckoId: plasma

@@ -9,15 +9,10 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 0
 chainId: 2741
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Abstract
 domainId: 2741
 gasCurrencyCoinGeckoId: ethereum
 gnosisSafeTransactionServiceUrl: https://transaction.safe.abs.xyz
-index:
-  from: 201749
 name: abstract
 nativeToken:
   decimals: 18

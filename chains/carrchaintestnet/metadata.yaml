@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://testnet.carrscan.io/api/v1
     family: etherscan
@@ -11,13 +8,8 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 0
 chainId: 76672
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: CarrChain Testnet
 domainId: 76672
-index:
-  from: 117
 isTestnet: true
 name: carrchaintestnet
 nativeToken:

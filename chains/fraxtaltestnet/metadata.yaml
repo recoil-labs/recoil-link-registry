@@ -5,9 +5,6 @@ blockExplorers:
     name: Fraxtal Testnet Explorer
     url: https://holesky.fraxscan.com
 chainId: 2522
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Fraxtal Testnet
 domainId: 2522
 isTestnet: true

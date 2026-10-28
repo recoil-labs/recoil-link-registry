@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=252
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=252
     family: etherscan
     name: Fraxscan
     url: https://fraxscan.com
@@ -14,9 +13,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 252
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Fraxtal
 domainId: 252
 gasCurrencyCoinGeckoId: frax-share

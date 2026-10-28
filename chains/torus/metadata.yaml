@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://blockscout.torus.network/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 8
   reorgPeriod: finalized
 chainId: 21000
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Torus
 domainId: 21000
 gasCurrencyCoinGeckoId: torus

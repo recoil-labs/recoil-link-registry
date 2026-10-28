@@ -1,8 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
-bech32Prefix: inj
 blockExplorers:
   - apiUrl: https://apis.mintscan.io/v1/injective
     family: other
@@ -15,9 +11,6 @@ blocks:
 canonicalAsset: inj
 chainId: injective-1
 contractAddressBytes: 20
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Injective
 # Generated from: console.log(parseInt('0x'+Buffer.from('inj').toString('hex')))
 domainId: 6909546
@@ -27,9 +20,6 @@ gasPrice:
   denom: inj
 grpcUrls:
   - http: https://injective-grpc.goldenratiostaking.net:443
-index:
-  chunk: 25
-  from: 58419500
 name: injective
 nativeToken:
   decimals: 18

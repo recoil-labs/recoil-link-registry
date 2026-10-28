@@ -7,9 +7,6 @@ blocks:
 canonicalAsset: utia
 chainId: arabica-11
 contractAddressBytes: 32
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Celestia Arabica Devnet
 # Generated from: console.log(parseInt('0x'+Buffer.from('ARAB').toString('hex')) % 4_294_967_295)
 domainId: 1095909698
@@ -18,9 +15,6 @@ gasPrice:
   denom: utia
 grpcUrls:
   - http: https://grpc.celestia-arabica-11.com:443
-index:
-  chunk: 10
-  from: 8214286
 isTestnet: true
 name: celestiadevnet
 nativeToken:

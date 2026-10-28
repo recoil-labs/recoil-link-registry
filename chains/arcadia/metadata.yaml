@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.arcadia.khalani.network/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 4278608
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Arcadia
 domainId: 4278608
 # TODO: update to khalani-aip once we have a valid id

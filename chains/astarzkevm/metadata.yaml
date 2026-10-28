@@ -1,6 +1,3 @@
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://astar-zkevm.explorer.startale.com/api
     family: blockscout

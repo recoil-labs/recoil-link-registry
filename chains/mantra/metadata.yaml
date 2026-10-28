@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 5
 chainId: 5888
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: MANTRA
 domainId: 5888
 gasCurrencyCoinGeckoId: mantra

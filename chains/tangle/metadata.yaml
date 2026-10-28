@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.tangle.tools/api
     family: blockscout
@@ -11,9 +8,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: finalized
 chainId: 5845
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Tangle
 domainId: 5845
 gasCurrencyCoinGeckoId: tangle-network

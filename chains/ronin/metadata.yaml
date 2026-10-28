@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://app.roninchain.com/api
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 5
 chainId: 2020
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Ronin
 domainId: 2020
 gasCurrencyCoinGeckoId: ronin

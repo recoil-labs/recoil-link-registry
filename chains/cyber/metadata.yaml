@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api.socialscan.io/cyber
     family: other
@@ -11,9 +8,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 7560
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Cyber
 domainId: 7560
 gasCurrencyCoinGeckoId: ethereum

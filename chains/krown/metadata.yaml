@@ -4,9 +4,6 @@ blocks:
   estimateBlockTime: 12
   reorgPeriod: finalized
 chainId: 1983
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Krown
 domainId: 1983
 gasCurrencyCoinGeckoId: krown-network

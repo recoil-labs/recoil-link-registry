@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=130
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=130
     family: etherscan
     name: Unichain Explorer
     url: https://uniscan.xyz
@@ -14,9 +13,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 130
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Unichain
 domainId: 130
 gasCurrencyCoinGeckoId: ethereum

@@ -1,8 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
-bech32Prefix: neutron
 blockExplorers:
   - apiUrl: https://apis.mintscan.io/v1/neutron
     family: other
@@ -15,9 +11,6 @@ blocks:
 canonicalAsset: untrn
 chainId: neutron-1
 contractAddressBytes: 32
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Neutron
 domainId: 1853125230
 gasCurrencyCoinGeckoId: neutron-3
@@ -26,9 +19,6 @@ gasPrice:
   denom: untrn
 grpcUrls:
   - http: http://grpc-kralum.neutron-1.neutron.org:80
-index:
-  chunk: 5
-  from: 4000000
 name: neutron
 nativeToken:
   decimals: 6

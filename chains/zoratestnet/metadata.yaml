@@ -5,9 +5,6 @@ blockExplorers:
     name: Zora Testnet Explorer
     url: https://sepolia.explorer.zora.energy
 chainId: 999999999
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Zora Testnet
 domainId: 999999999
 gnosisSafeTransactionServiceUrl: https://transaction-zora-sepolia.safe.optimism.io

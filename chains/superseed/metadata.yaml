@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.superseed.xyz/api
     family: blockscout
@@ -16,9 +13,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 5330
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Superseed
 domainId: 5330
 gasCurrencyCoinGeckoId: ethereum

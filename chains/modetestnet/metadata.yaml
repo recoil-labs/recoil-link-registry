@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 1
 chainId: 919
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Mode Testnet
 domainId: 919
 gnosisSafeTransactionServiceUrl: https://transaction-mode-sepolia.safe.optimism.io

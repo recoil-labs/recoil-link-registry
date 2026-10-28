@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://evm-explorer-testnet.alephzero.org/api
     family: blockscout
@@ -12,13 +9,8 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 5
 chainId: 2039
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Aleph Zero EVM Testnet
 domainId: 2039
-index:
-  from: 1380870
 isTestnet: true
 name: alephzeroevmtestnet
 nativeToken:

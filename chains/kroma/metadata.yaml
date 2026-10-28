@@ -1,6 +1,3 @@
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://blockscout.kroma.network/api
     family: blockscout

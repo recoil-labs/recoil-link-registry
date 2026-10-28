@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 30
   reorgPeriod: 1
 chainId: "0x505249564154455f534e5f50415241434c4541525f4d41494e4e4554"
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Paradex
 # keccak256("paradex") % MAX_INT32
 domainId: 514051890

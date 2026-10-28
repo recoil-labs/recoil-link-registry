@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.superposition.so/api
     family: blockscout
@@ -15,8 +12,6 @@ chainId: 55244
 displayName: DEPRECATED Superposition
 domainId: 55244
 gasCurrencyCoinGeckoId: ethereum
-index:
-  from: 1201
 name: deprecatedsuperposition
 nativeToken:
   decimals: 18

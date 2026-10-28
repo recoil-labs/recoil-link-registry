@@ -1,10 +1,6 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=167000
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=167000
     family: etherscan
     name: Taikoscan
     url: https://taikoscan.io
@@ -13,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 167000
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Taiko
 domainId: 167000
 gasCurrencyCoinGeckoId: ethereum

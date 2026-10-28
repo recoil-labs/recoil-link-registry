@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://scan.coredao.org/api
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 21
 chainId: 1116
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Core
 domainId: 1116
 gasCurrencyCoinGeckoId: coredaoorg

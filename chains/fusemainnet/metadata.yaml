@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.fuse.io/api
     family: etherscan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 19
 chainId: 122
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Fuse
 domainId: 122
 gasCurrencyCoinGeckoId: fuse-network-token

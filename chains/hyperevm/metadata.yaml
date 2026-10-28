@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=999
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=999
     family: etherscan
     name: HyperEVM Scan
     url: https://hyperevmscan.io
@@ -14,9 +13,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 999
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: HyperEVM
 domainId: 999
 gasCurrencyCoinGeckoId: hyperliquid

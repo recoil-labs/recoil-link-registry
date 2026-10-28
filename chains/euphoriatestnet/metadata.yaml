@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: 0
 chainId: 6321
-deployer:
-  name: hoanm
-  url: https://github.com/hoanm
 displayName: Euphoria Testnet
 domainId: 6321
 isTestnet: true

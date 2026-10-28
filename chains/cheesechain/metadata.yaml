@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated, unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://fetascan.xyz/api
     family: blockscout
@@ -12,15 +9,10 @@ blocks:
   estimateBlockTime: 30
   reorgPeriod: 1
 chainId: 383353
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: CheeseChain
 domainId: 383353
 gasCurrencyCoinGeckoId: cheese-2
 gnosisSafeTransactionServiceUrl: https://prod.cheese.transaction.keypersafe.xyz/
-index:
-  from: 50650
 name: cheesechain
 nativeToken:
   decimals: 18

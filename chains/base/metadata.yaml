@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=8453
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=8453
     family: etherscan
     name: BaseScan
     url: https://basescan.org
@@ -18,9 +17,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 10
 chainId: 8453
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Base
 domainId: 8453
 gasCurrencyCoinGeckoId: ethereum

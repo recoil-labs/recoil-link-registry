@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 150
   reorgPeriod: 5
 chainId: 57
-deployer:
-  name: Syscoin
-  url: https://syscoin.org
 displayName: Syscoin NEVM
 domainId: 57
 isTestnet: false

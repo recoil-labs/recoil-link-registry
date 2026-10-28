@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 1
 chainId: 11822
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Artela Testnet
 domainId: 11822
 isTestnet: true

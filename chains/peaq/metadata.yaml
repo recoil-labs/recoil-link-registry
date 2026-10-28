@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://peaq.subscan.io/api
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: finalized
 chainId: 3338
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Peaq
 domainId: 3338
 gasCurrencyCoinGeckoId: peaq-2

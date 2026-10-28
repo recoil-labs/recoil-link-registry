@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.xrplevm.org/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: 5
 chainId: 1440000
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: XRPL EVM
 domainId: 1440000
 gasCurrencyCoinGeckoId: ripple

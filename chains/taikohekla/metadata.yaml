@@ -5,9 +5,6 @@ blockExplorers:
     name: Taiko Hekla Explorer
     url: https://hekla.taikoscan.network
 chainId: 167009
-deployer:
-  name: tmr
-  url: https://t.me/netimer
 displayName: Taiko Hekla
 domainId: 167009
 isTestnet: true

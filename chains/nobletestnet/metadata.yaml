@@ -1,8 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
-bech32Prefix: noble
 blockExplorers:
   - apiUrl: https://www.mintscan.io/noble-testnet
     family: other
@@ -15,9 +11,6 @@ blocks:
 canonicalAsset: uusdn
 chainId: grand-1
 contractAddressBytes: 32
-deployer:
-  name: Noble
-  url: https://noble.xyz
 displayName: Noble Testnet
 # Generated from: console.log(parseInt('0x'+Buffer.from('GRAN').toString('hex')))
 domainId: 1196573006
@@ -26,9 +19,6 @@ gasPrice:
   denom: uusdn
 grpcUrls:
   - http: http://noble-testnet-grpc.polkachu.com:21590
-index:
-  chunk: 10
-  from: 29035000
 isTestnet: true
 name: nobletestnet
 nativeToken:

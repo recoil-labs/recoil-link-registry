@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 1
 chainId: 1291
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Swisstronik Testnet
 domainId: 1291
 isTestnet: true

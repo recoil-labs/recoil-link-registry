@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: finalized
 chainId: 728126428
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Tron
 domainId: 728126428
 gasCurrencyCoinGeckoId: tron

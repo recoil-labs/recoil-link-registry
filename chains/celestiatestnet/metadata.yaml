@@ -7,9 +7,6 @@ blocks:
 canonicalAsset: utia
 chainId: mocha-4
 contractAddressBytes: 32
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Celestia Testnet
 # Generated from: console.log(parseInt('0x'+Buffer.from('MOCH').toString('hex')) % 4_294_967_295)
 domainId: 1297040200
@@ -18,9 +15,6 @@ gasPrice:
   denom: utia
 grpcUrls:
   - http: http://public-celestia-mocha4-consensus.numia.xyz:9090
-index:
-  chunk: 10
-  from: 6915786
 isTestnet: true
 name: celestiatestnet
 nativeToken:

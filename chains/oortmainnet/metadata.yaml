@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://mainnet-scan.oortech.com/api
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 0
 chainId: 970
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Oort
 domainId: 970
 gasCurrencyCoinGeckoId: oort

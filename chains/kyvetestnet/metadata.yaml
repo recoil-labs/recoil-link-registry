@@ -12,9 +12,6 @@ blocks:
 canonicalAsset: tkyve
 chainId: kaon-1
 contractAddressBytes: 32
-deployer:
-  name: KYVE
-  url: https://kyve.network
 displayName: KYVE Testnet
 # Generated from: console.log(parseInt('0x'+Buffer.from('KAON').toString('hex')))
 domainId: 1262571342
@@ -23,9 +20,6 @@ gasPrice:
   denom: tkyve
 grpcUrls:
   - http: https://grpc-raw.kaon.kyve.network
-index:
-  chunk: 10
-  from: 11470395
 isTestnet: true
 name: kyvetestnet
 nativeToken:

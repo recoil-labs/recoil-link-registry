@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 4114
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Citrea
 domainId: 4114
 gasCurrencyCoinGeckoId: bitcoin

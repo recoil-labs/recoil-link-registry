@@ -1,6 +1,3 @@
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://evmapi.confluxscan.net/api
     family: other

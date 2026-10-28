@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 1
 chainId: 5042
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Arc
 domainId: 5042
 gasCurrencyCoinGeckoId: usd-coin

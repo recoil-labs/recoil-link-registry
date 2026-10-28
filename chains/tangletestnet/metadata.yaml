@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://testnet-explorer.tangle.tools/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: 0
 chainId: 3799
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Tangle Testnet
 domainId: 3799
 isTestnet: true

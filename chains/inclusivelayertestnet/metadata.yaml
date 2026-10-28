@@ -9,13 +9,8 @@ blocks:
   estimateBlockTime: 60
   reorgPeriod: 1
 chainId: 71461164656
-deployer:
-  name: aditya172926
-  url: https://github.com/aditya172926
 displayName: Inclusive Layer Testnet
 domainId: 3461164656
-index:
-  from: 4306
 isTestnet: true
 name: inclusivelayertestnet
 nativeToken:

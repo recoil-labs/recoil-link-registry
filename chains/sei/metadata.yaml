@@ -1,10 +1,6 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
-  - apiKey: 487e1ac5-03f4-4473-9e73-cee721b782b5
-    apiUrl: https://seitrace.com/pacific-1/api
+  - apiUrl: https://seitrace.com/pacific-1/api
     family: etherscan
     name: Seitrace
     url: https://seitrace.com
@@ -13,9 +9,6 @@ blocks:
   estimateBlockTime: 0.4
   reorgPeriod: 1
 chainId: 1329
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Sei
 domainId: 1329
 gasCurrencyCoinGeckoId: sei-network

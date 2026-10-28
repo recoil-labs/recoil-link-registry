@@ -5,9 +5,6 @@ blockExplorers:
     name: Moonriver Chain Explorer
     url: https://moonriver.moonscan.io
 chainId: 1285
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Moonriver
 domainId: 1285
 isTestnet: false

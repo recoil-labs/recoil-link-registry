@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 1
 chainId: 31911
-deployer:
-  name: Linuz
-  url: https://github.com/0xlinus
 displayName: Ozean Poseidon Testnet
 domainId: 31911
 isTestnet: true

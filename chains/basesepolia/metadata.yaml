@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: R8CVTG7HDJYD5JDV2GSD5TGQH3J2KJDSSY
-    apiUrl: https://api-sepolia.basescan.org/api
+  - apiUrl: https://api-sepolia.basescan.org/api
     family: etherscan
     name: BaseScan
     url: https://sepolia.basescan.org
@@ -10,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 1
 chainId: 84532
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Base Sepolia
 domainId: 84532
 gasCurrencyCoinGeckoId: ethereum

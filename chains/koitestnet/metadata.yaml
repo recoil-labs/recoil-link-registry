@@ -5,9 +5,6 @@ blockExplorers:
     name: Koi Explorer
     url: https://koi-scan.darwinia.network
 chainId: 701
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Koi Testnet
 domainId: 701
 isTestnet: true

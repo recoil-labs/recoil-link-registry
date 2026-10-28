@@ -5,9 +5,6 @@ blockExplorers:
     name: Metal L2 Testnet Explorer
     url: https://testnet.explorer.metall2.com
 chainId: 1740
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Metal L2 Testnet
 domainId: 1740
 isTestnet: true

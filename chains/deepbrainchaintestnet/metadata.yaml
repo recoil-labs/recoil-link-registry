@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 6
   reorgPeriod: finalized
 chainId: 19850818
-deployer:
-  name: frank0528
-  url: https://github.com/frank0528
 displayName: DeepBrainChain Testnet
 domainId: 19850818
 isTestnet: true

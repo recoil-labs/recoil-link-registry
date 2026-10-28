@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.hsk.xyz/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 177
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Hashkey
 domainId: 177
 gasCurrencyCoinGeckoId: hashkey-ecopoints

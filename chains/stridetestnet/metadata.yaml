@@ -10,9 +10,6 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 1
 chainId: stride-internal-1
-deployer:
-  name: Stride Labs
-  url: https://www.stride.zone
 displayName: Stride Testnet
 domainId: 1651
 gasCurrencyCoinGeckoId: stride

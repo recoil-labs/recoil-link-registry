@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 5
 chainId: 4207
-deployer:
-  name: LayerEdge
-  url: https://www.layeredge.io
 displayName: Edgen Chain
 domainId: 4207
 isTestnet: false

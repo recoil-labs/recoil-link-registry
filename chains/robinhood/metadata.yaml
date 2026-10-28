@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=4663
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=4663
     family: etherscan
     name: Robinhood Explorer
     url: https://robin.etherscan.io
@@ -14,14 +13,9 @@ blocks:
   estimateBlockTime: 0.1
   reorgPeriod: 5
 chainId: 4663
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Robinhood Chain
 domainId: 4663
 gasCurrencyCoinGeckoId: ethereum
-index:
-  from: 47247
 name: robinhood
 nativeToken:
   decimals: 18

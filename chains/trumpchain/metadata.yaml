@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.trumpchain.dev/api
     family: blockscout
@@ -15,8 +12,6 @@ chainId: 4547
 displayName: TRUMPCHAIN
 domainId: 4547
 gasCurrencyCoinGeckoId: official-trump
-index:
-  from: 18
 name: trumpchain
 nativeToken:
   decimals: 18

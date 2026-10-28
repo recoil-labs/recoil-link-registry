@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=42161
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=42161
     family: etherscan
     name: Arbiscan
     url: https://arbiscan.io
@@ -10,19 +9,10 @@ blocks:
   estimateBlockTime: 0.25
   reorgPeriod: 5
 chainId: 42161
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Arbitrum
 domainId: 42161
 gasCurrencyCoinGeckoId: ethereum
 gnosisSafeTransactionServiceUrl: https://api.safe.global/tx-service/arb1
-index:
-  # Arbitrum Nitro flavored chains record the L1 block number they were deployed at,
-  # not the L2 block number. See https://docs.arbitrum.io/build-decentralized-apps/arbitrum-vs-ethereum/block-numbers-and-time#ethereum-block-numbers-within-arbitrum.
-  # This is the block that the Mailbox was deployed at:
-  # https://arbiscan.io/tx/0x946b241bfa1465d8de7247c155a533d2ee9437a2763a0399f1ca458f13b5efa5
-  from: 143649797
 name: arbitrum
 nativeToken:
   decimals: 18

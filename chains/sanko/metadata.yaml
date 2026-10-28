@@ -1,6 +1,3 @@
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.sanko.xyz/api/eth-rpc
     family: blockscout
@@ -14,8 +11,6 @@ chainId: 1996
 displayName: Sanko
 domainId: 1996
 gasCurrencyCoinGeckoId: dream-machine-token
-index:
-  from: 937117
 name: sanko
 nativeToken:
   decimals: 18

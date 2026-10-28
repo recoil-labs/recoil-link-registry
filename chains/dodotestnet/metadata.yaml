@@ -8,13 +8,8 @@ blocks:
   estimateBlockTime: 13
   reorgPeriod: 0
 chainId: 53457
-deployer:
-  name: DODO
-  url: http://dodoex.io
 displayName: DODOChain
 domainId: 53457
-index:
-  from: 2000
 isTestnet: true
 name: dodotestnet
 nativeToken:

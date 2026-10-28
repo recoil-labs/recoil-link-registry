@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://reactscan.net/api
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 7
   reorgPeriod: 5
 chainId: 1597
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Reactive Mainnet
 domainId: 1597
 gasCurrencyCoinGeckoId: reactive-network

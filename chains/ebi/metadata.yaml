@@ -9,14 +9,9 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 0
 chainId: 98881
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Ebi
 domainId: 98881
 gasCurrencyCoinGeckoId: ethereum
-index:
-  from: 10689437
 name: ebi
 nativeToken:
   decimals: 18

@@ -5,9 +5,6 @@ blockExplorers:
     name: Canto Testnet Explorer
     url: https://testnet.tuber.build
 chainId: 7701
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Canto Testnet
 domainId: 7701
 isTestnet: true

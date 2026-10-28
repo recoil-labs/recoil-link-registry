@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=137
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=137
     family: etherscan
     name: PolygonScan
     url: https://polygonscan.com
@@ -10,9 +9,6 @@ blocks:
   estimateBlockTime: 1.5
   reorgPeriod: finalized
 chainId: 137
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Polygon
 domainId: 137
 gasCurrencyCoinGeckoId: polygon-ecosystem-token

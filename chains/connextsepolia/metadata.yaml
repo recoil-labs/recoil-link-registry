@@ -1,6 +1,3 @@
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://scan.testnet.everclear.org/api
     family: blockscout
@@ -11,14 +8,9 @@ blocks:
   estimateBlockTime: 10
   reorgPeriod: 0
 chainId: 6398
-deployer:
-  name: Everclear
-  url: https://everclear.org
 displayName: Everclear Sepolia
 domainId: 6398
 gasCurrencyCoinGeckoId: ethereum
-index:
-  from: 4950
 isTestnet: true
 name: connextsepolia
 nativeToken:

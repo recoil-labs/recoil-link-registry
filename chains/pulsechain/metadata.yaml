@@ -17,9 +17,6 @@ blocks:
   estimateBlockTime: 10
   reorgPeriod: 10
 chainId: 369
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: PulseChain
 domainId: 369
 gasCurrencyCoinGeckoId: pulsechain

@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://scan.merlinchain.io/api
     family: other
@@ -11,9 +8,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 5
 chainId: 4200
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Merlin
 domainId: 4200
 gasCurrencyCoinGeckoId: merlin-chain-bridged-wrapped-btc-merlin

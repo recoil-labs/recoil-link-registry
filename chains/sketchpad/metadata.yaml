@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 0
 chainId: 984123
-deployer:
-  name: Codecrafting Labs
-  url: https://cclabs.tech
 displayName: Forma Sketchpad
 displayNameShort: Sketchpad
 domainId: 984123

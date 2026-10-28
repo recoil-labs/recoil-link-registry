@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 30
   reorgPeriod: 4
 chainId: 31
-deployer:
-  name: Rootstock
-  url: https://rootstock.io
 displayName: Rootstock Testnet
 domainId: 31
 isTestnet: true

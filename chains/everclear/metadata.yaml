@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://scan.everclear.org/api
     family: blockscout
@@ -11,14 +8,9 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 2
 chainId: 25327
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Everclear
 domainId: 25327
 gasCurrencyCoinGeckoId: ethereum
-index:
-  from: 37
 name: everclear
 nativeToken:
   decimals: 18

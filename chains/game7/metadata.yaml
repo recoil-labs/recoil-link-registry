@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://mainnet.game7.io/api
     family: blockscout
@@ -12,14 +9,9 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 0
 chainId: 2187
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Game7
 domainId: 2187
 gasCurrencyCoinGeckoId: game7
-index:
-  from: 1635677
 isTestnet: false
 name: game7
 nativeToken:

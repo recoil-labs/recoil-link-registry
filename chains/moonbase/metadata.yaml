@@ -5,9 +5,6 @@ blockExplorers:
     name: Moonbase Alpha Testnet Explorer
     url: https://moonbase.moonscan.io
 chainId: 1287
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Moonbase Testnet
 domainId: 1287
 isTestnet: true

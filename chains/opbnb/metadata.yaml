@@ -1,10 +1,6 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=204
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=204
     family: etherscan
     name: opBNB Scan
     url: https://opbnb.bscscan.com
@@ -13,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 204
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: opBNB
 domainId: 204
 gasCurrencyCoinGeckoId: binancecoin

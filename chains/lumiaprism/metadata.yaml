@@ -1,6 +1,3 @@
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.lumia.org/api/eth-rpc
     family: blockscout
@@ -11,9 +8,6 @@ blocks:
   estimateBlockTime: 4
   reorgPeriod: 5
 chainId: 994873017
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Lumia Prism
 domainId: 1000073017
 gasCurrencyCoinGeckoId: lumia

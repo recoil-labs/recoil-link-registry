@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://testnet-blockscout.infra.neuraprotocol.io/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 0
 chainId: 267
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Neura Testnet
 domainId: 267
 isTestnet: true

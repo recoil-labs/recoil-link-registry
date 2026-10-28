@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: JMYR3W6HHVPQ1HH8T6W8HSZVG88IH3MHRU
-    apiUrl: https://api-sepolia-optimistic.etherscan.io/api
+  - apiUrl: https://api-sepolia-optimistic.etherscan.io/api
     family: etherscan
     name: OP Sepolia Explorer
     url: https://sepolia-optimistic.etherscan.io
@@ -10,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 0
 chainId: 11155420
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Optimism Sepolia
 domainId: 11155420
 gasCurrencyCoinGeckoId: ethereum

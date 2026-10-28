@@ -10,15 +10,10 @@ abstract:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 2741
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Abstract
   domainId: 2741
   gasCurrencyCoinGeckoId: ethereum
   gnosisSafeTransactionServiceUrl: https://transaction.safe.abs.xyz
-  index:
-    from: 201749
   name: abstract
   nativeToken:
     decimals: 18
@@ -29,10 +24,6 @@ abstract:
     - http: https://api.mainnet.abs.xyz
   technicalStack: zksync
 abstracttestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://api-explorer-verify.testnet.abs.xyz/contract_verification
       family: etherscan
@@ -43,9 +34,6 @@ abstracttestnet:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 11124
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Abstract Testnet
   domainId: 11124
   isTestnet: true
@@ -69,9 +57,6 @@ acala:
     estimateBlockTime: 13
     reorgPeriod: finalized
   chainId: 787
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Acala EVM
   domainId: 787
   gasCurrencyCoinGeckoId: acala
@@ -85,10 +70,6 @@ acala:
     - http: https://eth-rpc-acala.aca-api.network
   technicalStack: polkadotsubstrate
 adichain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.adichain/api
       family: other
@@ -99,9 +80,6 @@ adichain:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 36900
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: ADI Chain
   domainId: 36900
   gasCurrencyCoinGeckoId: adi-token
@@ -125,9 +103,6 @@ aleo:
     estimateBlockTime: 3
     reorgPeriod: 0
   chainId: 0
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Aleo
   domainId: 1634493807
   gasCurrencyCoinGeckoId: aleo
@@ -153,9 +128,6 @@ aleotestnet:
     estimateBlockTime: 3
     reorgPeriod: 0
   chainId: 1
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Aleo Testnet
   domainId: 1617853565
   isTestnet: true
@@ -169,10 +141,6 @@ aleotestnet:
   rpcUrls:
     - http: https://api.explorer.provable.com/v2
 alephzeroevmmainnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://evm-explorer.alephzero.org/api
       family: blockscout
@@ -183,15 +151,10 @@ alephzeroevmmainnet:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 41455
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Aleph Zero EVM
   displayNameShort: Aleph Zero EVM
   domainId: 1000041455
   gasCurrencyCoinGeckoId: aleph-zero
-  index:
-    from: 4243354
   name: alephzeroevmmainnet
   nativeToken:
     decimals: 18
@@ -203,10 +166,6 @@ alephzeroevmmainnet:
     - http: https://alephzero.drpc.org
   technicalStack: arbitrumnitro
 alephzeroevmtestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://evm-explorer-testnet.alephzero.org/api
       family: blockscout
@@ -217,13 +176,8 @@ alephzeroevmtestnet:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 2039
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Aleph Zero EVM Testnet
   domainId: 2039
-  index:
-    from: 1380870
   isTestnet: true
   name: alephzeroevmtestnet
   nativeToken:
@@ -235,10 +189,6 @@ alephzeroevmtestnet:
     - http: https://rpc.alephzero-testnet.gelato.digital
   technicalStack: arbitrumnitro
 alfajores:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.celo.org/alfajores/api
       family: blockscout
@@ -249,9 +199,6 @@ alfajores:
     estimateBlockTime: 5
     reorgPeriod: 0
   chainId: 44787
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Alfajores
   domainId: 44787
   gasCurrencyCoinGeckoId: celo
@@ -265,10 +212,6 @@ alfajores:
   rpcUrls:
     - http: https://alfajores-forno.celo-testnet.org
 ancient8:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://scan.ancient8.gg/api
       family: blockscout
@@ -279,9 +222,6 @@ ancient8:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 888888888
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Ancient8
   domainId: 888888888
   gasCurrencyCoinGeckoId: ethereum
@@ -298,8 +238,7 @@ ancient8:
   technicalStack: opstack
 apechain:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://apescan.io/api
+    - apiUrl: https://apescan.io/api
       family: etherscan
       name: Apescan
       url: https://apescan.io
@@ -312,14 +251,9 @@ apechain:
     estimateBlockTime: 0.2
     reorgPeriod: 5
   chainId: 33139
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: ApeChain
   domainId: 33139
   gasCurrencyCoinGeckoId: apecoin
-  index:
-    from: 1759561
   name: apechain
   nativeToken:
     decimals: 18
@@ -330,10 +264,6 @@ apechain:
     - http: https://rpc.apechain.com/http
   technicalStack: arbitrumnitro
 appchain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.appchain.xyz/api
       family: blockscout
@@ -344,14 +274,9 @@ appchain:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 466
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: AppChain
   domainId: 466
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 190
   name: appchain
   nativeToken:
     decimals: 18
@@ -363,8 +288,7 @@ appchain:
   technicalStack: arbitrumnitro
 arbitrum:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=42161
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=42161
       family: etherscan
       name: Arbiscan
       url: https://arbiscan.io
@@ -373,15 +297,10 @@ arbitrum:
     estimateBlockTime: 0.25
     reorgPeriod: 5
   chainId: 42161
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Arbitrum
   domainId: 42161
   gasCurrencyCoinGeckoId: ethereum
   gnosisSafeTransactionServiceUrl: https://api.safe.global/tx-service/arb1
-  index:
-    from: 143649797
   name: arbitrum
   nativeToken:
     decimals: 18
@@ -394,10 +313,6 @@ arbitrum:
     - http: https://arbitrum-one-rpc.publicnode.com
   technicalStack: arbitrumnitro
 arbitrumnova:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://arbitrum-nova.blockscout.com/api
       family: blockscout
@@ -408,14 +323,9 @@ arbitrumnova:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 42170
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Arbitrum Nova
   domainId: 42170
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 78794208
   name: arbitrumnova
   nativeToken:
     decimals: 18
@@ -427,8 +337,7 @@ arbitrumnova:
   technicalStack: arbitrumnitro
 arbitrumsepolia:
   blockExplorers:
-    - apiKey: QAI5SWBNHJSFAN6KMS9RC5JGFKV2IYD2Z5
-      apiUrl: https://api-sepolia.arbiscan.io/api
+    - apiUrl: https://api-sepolia.arbiscan.io/api
       family: etherscan
       name: Arbiscan
       url: https://sepolia.arbiscan.io
@@ -437,14 +346,9 @@ arbitrumsepolia:
     estimateBlockTime: 0.25
     reorgPeriod: 0
   chainId: 421614
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Arbitrum Sepolia
   domainId: 421614
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 49690504
   isTestnet: true
   name: arbitrumsepolia
   nativeToken:
@@ -468,9 +372,6 @@ arc:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 5042
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Arc
   domainId: 5042
   gasCurrencyCoinGeckoId: usd-coin
@@ -487,10 +388,6 @@ arc:
     maxFeePerGas: 60000000000
     maxPriorityFeePerGas: 2000000000
 arcadia:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.arcadia.khalani.network/api
       family: blockscout
@@ -501,9 +398,6 @@ arcadia:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 4278608
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Arcadia
   domainId: 4278608
   gasCurrencyCoinGeckoId: ethereum
@@ -517,10 +411,6 @@ arcadia:
     - http: https://arcadia.khalani.network
   technicalStack: other
 arcadiatestnet2:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.khalani.network/api
       family: blockscout
@@ -531,9 +421,6 @@ arcadiatestnet2:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 1098411886
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Arcadia Testnet v2
   domainId: 1098411886
   isTestnet: true
@@ -556,9 +443,6 @@ argochaintestnet:
     estimateBlockTime: 6
     reorgPeriod: 20
   chainId: 1298
-  deployer:
-    name: pavondunbar
-    url: https://github.com/pavondunbar
   displayName: Argochain Testnet
   domainId: 1298
   isTestnet: true
@@ -571,10 +455,6 @@ argochaintestnet:
   rpcUrls:
     - http: https://test-rpc.devolvedai.com
 artela:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://artscan.artela.network/api
       family: blockscout
@@ -585,9 +465,6 @@ artela:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 11820
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Artela
   domainId: 11820
   gasCurrencyCoinGeckoId: artela-network
@@ -612,9 +489,6 @@ artelatestnet:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 11822
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Artela Testnet
   domainId: 11822
   isTestnet: true
@@ -628,10 +502,6 @@ artelatestnet:
     - http: https://betanet-rpc1.artela.network
     - http: https://betanet-rpc2.artela.network
 arthera:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.arthera.net/api
       family: blockscout
@@ -667,9 +537,6 @@ artheratestnet:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 10243
-  deployer:
-    name: Arthera
-    url: https://www.arthera.net
   displayName: Arthera Testnet
   domainId: 10243
   isTestnet: true
@@ -684,10 +551,6 @@ artheratestnet:
       pagination:
         maxBlockRange: 10000
 astar:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://astar.blockscout.com/api
       family: blockscout
@@ -698,9 +561,6 @@ astar:
     estimateBlockTime: 13
     reorgPeriod: finalized
   chainId: 592
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Astar
   domainId: 592
   gasCurrencyCoinGeckoId: astar
@@ -714,10 +574,6 @@ astar:
     - http: https://evm.astar.network
   technicalStack: polkadotsubstrate
 astarzkevm:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://astar-zkevm.explorer.startale.com/api
       family: blockscout
@@ -742,10 +598,6 @@ astarzkevm:
     - http: https://astar-zkevm-rpc.dwellir.com
   technicalStack: polygoncdk
 aurora:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.mainnet.aurora.dev/api
       family: blockscout
@@ -756,9 +608,6 @@ aurora:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 1313161554
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Aurora
   domainId: 1313161554
   gasCurrencyCoinGeckoId: ethereum
@@ -773,10 +622,6 @@ aurora:
     - http: https://aurora.drpc.org
   technicalStack: other
 auroratestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.testnet.aurora.dev/api
       family: blockscout
@@ -787,9 +632,6 @@ auroratestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 1313161555
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Aurora Testnet
   domainId: 1313161555
   isTestnet: true
@@ -806,8 +648,7 @@ auroratestnet:
   technicalStack: other
 avalanche:
   blockExplorers:
-    - apiKey: NIF3616T2AP6EHYWIHJEKR1HCMA2K7D96X
-      apiUrl: https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan/api
+    - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan/api
       family: routescan
       name: SnowTrace
       url: https://snowtrace.io
@@ -816,9 +657,6 @@ avalanche:
     estimateBlockTime: 1
     reorgPeriod: 3
   chainId: 43114
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Avalanche
   domainId: 43114
   gasCurrencyCoinGeckoId: avalanche-2
@@ -839,10 +677,6 @@ avalanche:
         minBlockNumber: 6765067
   technicalStack: other
 b3:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.b3.fun/api
       family: blockscout
@@ -853,9 +687,6 @@ b3:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 8333
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: B3
   domainId: 8333
   gasCurrencyCoinGeckoId: ethereum
@@ -870,8 +701,7 @@ b3:
   technicalStack: opstack
 base:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=8453
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=8453
       family: etherscan
       name: BaseScan
       url: https://basescan.org
@@ -888,9 +718,6 @@ base:
     estimateBlockTime: 2
     reorgPeriod: 10
   chainId: 8453
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Base
   domainId: 8453
   gasCurrencyCoinGeckoId: ethereum
@@ -911,10 +738,6 @@ base:
     - http: https://base-rpc.publicnode.com
   technicalStack: opstack
 basecamptestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://basecamp.cloud.blockscout.com/api
       family: blockscout
@@ -925,9 +748,6 @@ basecamptestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 123420001114
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Basecamp Testnet
   domainId: 1000001114
   isTestnet: true
@@ -941,8 +761,7 @@ basecamptestnet:
     - http: https://rpc.basecamp.t.raas.gelato.cloud
 basesepolia:
   blockExplorers:
-    - apiKey: R8CVTG7HDJYD5JDV2GSD5TGQH3J2KJDSSY
-      apiUrl: https://api-sepolia.basescan.org/api
+    - apiUrl: https://api-sepolia.basescan.org/api
       family: etherscan
       name: BaseScan
       url: https://sepolia.basescan.org
@@ -951,9 +770,6 @@ basesepolia:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 84532
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Base Sepolia
   domainId: 84532
   gasCurrencyCoinGeckoId: ethereum
@@ -968,10 +784,6 @@ basesepolia:
     - http: https://sepolia.base.org
     - http: https://base-sepolia-rpc.publicnode.com
 bepolia:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/testnet/evm/80069/etherscan/api
       family: routescan
@@ -982,9 +794,6 @@ bepolia:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 80069
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Berachain Bepolia
   displayNameShort: Bepolia
   domainId: 80069
@@ -999,10 +808,6 @@ bepolia:
     - http: https://bepolia.rpc.berachain.com
   technicalStack: other
 berachain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/80094/etherscan/api
       family: routescan
@@ -1013,9 +818,6 @@ berachain:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 80094
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Berachain
   domainId: 80094
   gasCurrencyCoinGeckoId: berachain-bera
@@ -1030,10 +832,6 @@ berachain:
     - http: https://rpc.berachain.com
   technicalStack: other
 bitlayer:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.btrscan.com/scan/api
       family: other
@@ -1044,9 +842,6 @@ bitlayer:
     estimateBlockTime: 3
     reorgPeriod: 20
   chainId: 200901
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Bitlayer
   domainId: 200901
   gasCurrencyCoinGeckoId: bitcoin
@@ -1063,13 +858,8 @@ bitlayer:
     - http: https://rpc.ankr.com/bitlayer
   technicalStack: other
 blast:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=81457
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=81457
       family: etherscan
       name: BlastScan
       url: https://blastscan.io
@@ -1082,9 +872,6 @@ blast:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 81457
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Blast
   domainId: 81457
   gasCurrencyCoinGeckoId: ethereum
@@ -1106,9 +893,6 @@ blastsepolia:
       name: Blast Sepolia Testnet Explorer
       url: https://sepolia.blastscan.io
   chainId: 168587773
-  deployer:
-    name: tmr
-    url: https://t.me/netimer
   displayName: Blast Sepolia Testnet
   domainId: 168587773
   isTestnet: true
@@ -1131,9 +915,6 @@ bob:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 60808
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: BOB
   domainId: 60808
   gasCurrencyCoinGeckoId: ethereum
@@ -1148,10 +929,6 @@ bob:
     - http: https://rpc.gobob.xyz
   technicalStack: opstack
 boba:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/288/etherscan/api
       family: routescan
@@ -1162,9 +939,6 @@ boba:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 288
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Boba Mainnet
   domainId: 288
   gasCurrencyCoinGeckoId: ethereum
@@ -1185,9 +959,6 @@ bobabnb:
       name: bobascan
       url: https://bobascan.com
   chainId: 56288
-  deployer:
-    name: Boba Network
-    url: https://boba.network
   displayName: Boba BNB
   domainId: 56288
   gnosisSafeTransactionServiceUrl: https://transaction.safe.boba.network/
@@ -1207,9 +978,6 @@ bobabnbtestnet:
       name: bobascan
       url: https://testnet.bobascan.com
   chainId: 9728
-  deployer:
-    name: Boba Network
-    url: https://boba.network
   displayName: Boba BNB Testnet
   domainId: 9728
   isTestnet: true
@@ -1222,10 +990,6 @@ bobabnbtestnet:
   rpcUrls:
     - http: https://testnet.bnb.boba.network
 botanix:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/3637/etherscan/api
       family: routescan
@@ -1236,9 +1000,6 @@ botanix:
     estimateBlockTime: 6
     reorgPeriod: 5
   chainId: 3637
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Botanix
   domainId: 3637
   gasCurrencyCoinGeckoId: bitcoin
@@ -1252,10 +1013,6 @@ botanix:
     - http: https://rpc.botanixlabs.com
   technicalStack: other
 bouncebit:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://bbscan.io/api
       family: other
@@ -1280,8 +1037,7 @@ bouncebit:
   technicalStack: other
 bsc:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=56
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=56
       family: etherscan
       name: BscScan
       url: https://bscscan.com
@@ -1290,9 +1046,6 @@ bsc:
     estimateBlockTime: 0.45
     reorgPeriod: finalized
   chainId: 56
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Binance Smart Chain
   displayNameShort: Binance
   domainId: 56
@@ -1320,9 +1073,6 @@ bsctestnet:
     estimateBlockTime: 0.45
     reorgPeriod: 9
   chainId: 97
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: BSC Testnet
   domainId: 97
   gasCurrencyCoinGeckoId: binancecoin
@@ -1337,10 +1087,6 @@ bsctestnet:
     - http: https://bsc-testnet.publicnode.com
     - http: https://bsc-testnet.drpc.org
 bsquared:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.bsquared.network/api
       family: etherscan
@@ -1351,9 +1097,6 @@ bsquared:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 223
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: B² Network
   domainId: 223
   gasCurrencyCoinGeckoId: bitcoin
@@ -1377,9 +1120,6 @@ canto:
       name: Canto Explorer
       url: https://explorer.plexnode.wtf
   chainId: 7700
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Canto
   domainId: 7700
   isTestnet: false
@@ -1400,9 +1140,6 @@ cantotestnet:
       name: Canto Testnet Explorer
       url: https://testnet.tuber.build
   chainId: 7701
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Canto Testnet
   domainId: 7701
   isTestnet: true
@@ -1438,10 +1175,6 @@ carbon:
   rpcUrls:
     - http: https://evm-api.carbon.network
 carrchain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://carrscan.io/api/v1
       family: other
@@ -1452,14 +1185,9 @@ carrchain:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 7667
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: CarrChain
   domainId: 7667
   gasCurrencyCoinGeckoId: carnomaly
-  index:
-    from: 40
   name: carrchain
   nativeToken:
     decimals: 18
@@ -1470,10 +1198,6 @@ carrchain:
     - http: https://rpc.carrchain.io
   technicalStack: arbitrumnitro
 carrchaintestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://testnet.carrscan.io/api/v1
       family: etherscan
@@ -1484,13 +1208,8 @@ carrchaintestnet:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 76672
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: CarrChain Testnet
   domainId: 76672
-  index:
-    from: 117
   isTestnet: true
   name: carrchaintestnet
   nativeToken:
@@ -1519,9 +1238,6 @@ celestia:
   canonicalAsset: utia
   chainId: celestia
   contractAddressBytes: 32
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Celestia
   domainId: 1128614981
   gasCurrencyCoinGeckoId: celestia
@@ -1530,9 +1246,6 @@ celestia:
     denom: utia
   grpcUrls:
     - http: https://celestia-grpc.publicnode.com:443
-  index:
-    chunk: 10
-    from: 6680339
   name: celestia
   nativeToken:
     decimals: 6
@@ -1557,9 +1270,6 @@ celestiadevnet:
   canonicalAsset: utia
   chainId: arabica-11
   contractAddressBytes: 32
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Celestia Arabica Devnet
   domainId: 1095909698
   gasPrice:
@@ -1567,9 +1277,6 @@ celestiadevnet:
     denom: utia
   grpcUrls:
     - http: https://grpc.celestia-arabica-11.com:443
-  index:
-    chunk: 10
-    from: 8214286
   isTestnet: true
   name: celestiadevnet
   nativeToken:
@@ -1595,9 +1302,6 @@ celestiatestnet:
   canonicalAsset: utia
   chainId: mocha-4
   contractAddressBytes: 32
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Celestia Testnet
   domainId: 1297040200
   gasPrice:
@@ -1605,9 +1309,6 @@ celestiatestnet:
     denom: utia
   grpcUrls:
     - http: http://public-celestia-mocha4-consensus.numia.xyz:9090
-  index:
-    chunk: 10
-    from: 6915786
   isTestnet: true
   name: celestiatestnet
   nativeToken:
@@ -1626,8 +1327,7 @@ celestiatestnet:
     gasPrice: "0.0"
 celo:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=42220
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=42220
       family: etherscan
       name: CeloScan
       url: https://celoscan.io
@@ -1640,9 +1340,6 @@ celo:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 42220
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Celo
   domainId: 42220
   gasCurrencyCoinGeckoId: celo
@@ -1669,9 +1366,6 @@ celosepolia:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 11142220
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Celo Sepolia
   domainId: 11142220
   isTestnet: true
@@ -1685,11 +1379,6 @@ celosepolia:
     - http: https://forno.celo-sepolia.celo-testnet.org
   technicalStack: opstack
 cheesechain:
-  availability:
-    reasons:
-      - deprecated
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://fetascan.xyz/api
       family: blockscout
@@ -1700,15 +1389,10 @@ cheesechain:
     estimateBlockTime: 30
     reorgPeriod: 1
   chainId: 383353
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: CheeseChain
   domainId: 383353
   gasCurrencyCoinGeckoId: cheese-2
   gnosisSafeTransactionServiceUrl: https://prod.cheese.transaction.keypersafe.xyz/
-  index:
-    from: 50650
   name: cheesechain
   nativeToken:
     decimals: 18
@@ -1719,10 +1403,6 @@ cheesechain:
     - http: https://cheesechain.calderachain.xyz/http
   technicalStack: arbitrumnitro
 chilizmainnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/88888/etherscan/api
       family: routescan
@@ -1733,9 +1413,6 @@ chilizmainnet:
     estimateBlockTime: 3
     reorgPeriod: 9
   chainId: 88888
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Chiliz
   domainId: 1000088888
   gasCurrencyCoinGeckoId: chiliz
@@ -1752,10 +1429,6 @@ chilizmainnet:
   transactionOverrides:
     maxPriorityFeePerGas: 1000000000
 chronicleyellowstone:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://yellowstone-explorer.litprotocol.com/api
       family: blockscout
@@ -1766,13 +1439,8 @@ chronicleyellowstone:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 175188
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Chronicle Yellowstone
   domainId: 175188
-  index:
-    from: 2339059
   isTestnet: true
   name: chronicleyellowstone
   nativeToken:
@@ -1794,9 +1462,6 @@ citrea:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 4114
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Citrea
   domainId: 4114
   gasCurrencyCoinGeckoId: bitcoin
@@ -1810,10 +1475,6 @@ citrea:
     - http: https://rpc.mainnet.citrea.xyz
   technicalStack: other
 citreatestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.testnet.citrea.xyz/api
       family: blockscout
@@ -1824,9 +1485,6 @@ citreatestnet:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 5115
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Citrea Testnet
   domainId: 5115
   gasCurrencyCoinGeckoId: bitcoin
@@ -1862,10 +1520,6 @@ clique:
   rpcUrls:
     - http: https://rpc.myclique.io
 conflux:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://evmapi.confluxscan.net/api
       family: other
@@ -1891,10 +1545,6 @@ conflux:
     - http: https://conflux-espace.blockpi.network/v1/rpc/public
   technicalStack: other
 connextsepolia:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://scan.testnet.everclear.org/api
       family: blockscout
@@ -1905,14 +1555,9 @@ connextsepolia:
     estimateBlockTime: 10
     reorgPeriod: 0
   chainId: 6398
-  deployer:
-    name: Everclear
-    url: https://everclear.org
   displayName: Everclear Sepolia
   domainId: 6398
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 4950
   isTestnet: true
   name: connextsepolia
   nativeToken:
@@ -1924,10 +1569,6 @@ connextsepolia:
     - http: https://rpc.connext-sepolia.gelato.digital
   technicalStack: arbitrumnitro
 conwai:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://conwai.calderaexplorer.xyz/api
       family: blockscout
@@ -1941,8 +1582,6 @@ conwai:
   displayName: Conwai
   domainId: 668668
   gasCurrencyCoinGeckoId: conwai
-  index:
-    from: 73
   name: conwai
   nativeToken:
     decimals: 18
@@ -1953,10 +1592,6 @@ conwai:
     - http: https://conwai.calderachain.xyz/http
   technicalStack: arbitrumnitro
 coredao:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://scan.coredao.org/api
       family: other
@@ -1967,9 +1602,6 @@ coredao:
     estimateBlockTime: 3
     reorgPeriod: 21
   chainId: 1116
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Core
   domainId: 1116
   gasCurrencyCoinGeckoId: coredaoorg
@@ -1985,10 +1617,6 @@ coredao:
     - http: https://rpc-core.icecreamswap.com
   technicalStack: other
 corn:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/21000000/etherscan/api
       family: routescan
@@ -2002,8 +1630,6 @@ corn:
   displayName: Corn
   domainId: 21000000
   gasCurrencyCoinGeckoId: bitcoin
-  index:
-    from: 55636
   name: corn
   nativeToken:
     decimals: 18
@@ -2060,9 +1686,6 @@ coti:
     estimateBlockTime: 5
     reorgPeriod: 5
   chainId: 2632500
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Coti
   domainId: 2632500
   gasCurrencyCoinGeckoId: coti
@@ -2086,9 +1709,6 @@ cotitestnet:
     estimateBlockTime: 5
     reorgPeriod: 1
   chainId: 7082400
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Coti Testnet
   domainId: 7082400
   gasCurrencyCoinGeckoId: coti
@@ -2104,8 +1724,7 @@ cotitestnet:
   technicalStack: other
 cronos:
   blockExplorers:
-    - apiKey: TN462TRF5Y4CZA7WDPS7XTF48JT2IKQFUX
-      apiUrl: https://api.cronoscan.com/api
+    - apiUrl: https://api.cronoscan.com/api
       family: etherscan
       name: Cronoscan Explorer
       url: https://cronoscan.com
@@ -2148,10 +1767,6 @@ cronoszkevm:
   rpcUrls:
     - http: https://mainnet.zkevm.cronos.org
 cyber:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.socialscan.io/cyber
       family: other
@@ -2162,9 +1777,6 @@ cyber:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 7560
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Cyber
   domainId: 7560
   gasCurrencyCoinGeckoId: ethereum
@@ -2180,10 +1792,6 @@ cyber:
     - http: https://cyber.alt.technology
   technicalStack: opstack
 deepbrainchain:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://www.dbcscan.io/api
       family: blockscout
@@ -2217,9 +1825,6 @@ deepbrainchaintestnet:
     estimateBlockTime: 6
     reorgPeriod: finalized
   chainId: 19850818
-  deployer:
-    name: frank0528
-    url: https://github.com/frank0528
   displayName: DeepBrainChain Testnet
   domainId: 19850818
   isTestnet: true
@@ -2232,10 +1837,6 @@ deepbrainchaintestnet:
   rpcUrls:
     - http: https://rpc-testnet.dbcwallet.io
 degenchain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.degen.tips/api/eth-rpc
       family: blockscout
@@ -2246,14 +1847,9 @@ degenchain:
     estimateBlockTime: 10
     reorgPeriod: 5
   chainId: 666666666
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Degen
   domainId: 666666666
   gasCurrencyCoinGeckoId: degen-base
-  index:
-    from: 23783929
   name: degenchain
   nativeToken:
     decimals: 18
@@ -2264,10 +1860,6 @@ degenchain:
     - http: https://rpc.degen.tips
   technicalStack: arbitrumnitro
 deprecatedalephzeroevm:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://evm-explorer.alephzero.org/api
       family: blockscout
@@ -2282,8 +1874,6 @@ deprecatedalephzeroevm:
   displayNameShort: DEPRECATED Aleph Zero EVM
   domainId: 41455
   gasCurrencyCoinGeckoId: aleph-zero
-  index:
-    from: 3421962
   name: deprecatedalephzeroevm
   nativeToken:
     decimals: 18
@@ -2295,10 +1885,6 @@ deprecatedalephzeroevm:
     - http: https://alephzero.drpc.org
   technicalStack: arbitrumnitro
 deprecatedchiliz:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/88888/etherscan/api
       family: routescan
@@ -2325,10 +1911,6 @@ deprecatedchiliz:
   transactionOverrides:
     maxPriorityFeePerGas: 1000000000
 deprecatedflow:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://evm.flowscan.io/api
       family: blockscout
@@ -2353,12 +1935,9 @@ deprecatedflow:
     - http: https://mainnet.evm.nodes.onflow.org
   technicalStack: other
   transactionOverrides:
+    # the minimum accepted gas price for transactions is: 100000000 aka 0.1 gwei
     gasPrice: 100000000
 deprecatedimmutablezkevm:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.immutable.com/api/eth-rpc
       family: blockscout
@@ -2386,10 +1965,6 @@ deprecatedimmutablezkevm:
     maxFeePerGas: 100000000000
     maxPriorityFeePerGas: 100000000000
 deprecatedmetall2:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.metall2.com/api
       family: blockscout
@@ -2414,10 +1989,6 @@ deprecatedmetall2:
     - http: https://rpc.metall2.com
   technicalStack: opstack
 deprecatedpolynomial:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://polynomialscan.io/api
       family: routescan
@@ -2441,10 +2012,6 @@ deprecatedpolynomial:
     - http: https://rpc.polynomial.fi
   technicalStack: opstack
 deprecatedrari:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://mainnet.explorer.rarichain.org/api
       family: blockscout
@@ -2458,8 +2025,6 @@ deprecatedrari:
   displayName: DEPRECATED RARI Chain
   domainId: 1380012617
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 541753
   name: deprecatedrari
   nativeToken:
     decimals: 18
@@ -2470,10 +2035,6 @@ deprecatedrari:
     - http: https://mainnet.rpc.rarichain.org/http
   technicalStack: arbitrumnitro
 deprecatedrootstock:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://rootstock.blockscout.com/api
       family: blockscout
@@ -2494,15 +2055,15 @@ deprecatedrootstock:
     symbol: RBTC
   protocol: ethereum
   rpcUrls:
+    # Note: Using Rootstock RPC api here which contains APIKEY in url.
+    # Recommended way is to get a new APIKEY whoever wants to run Hyperlane on Rootstock.
+    # RPC API Dashboard: https://dashboard.rpc.rootstock.io
+    # Developer Documentation: https://dev.rootstock.io
     - http: https://rpc.mainnet.rootstock.io/kXhXHf6TnnfW1POvr4UT0YUvujmuju-M
     - http: https://public-node.rsk.co
     - http: https://mycrypto.rsk.co
   technicalStack: other
 deprecatedsuperposition:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.superposition.so/api
       family: blockscout
@@ -2516,8 +2077,6 @@ deprecatedsuperposition:
   displayName: DEPRECATED Superposition
   domainId: 55244
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 1201
   name: deprecatedsuperposition
   nativeToken:
     decimals: 18
@@ -2538,13 +2097,8 @@ dodotestnet:
     estimateBlockTime: 13
     reorgPeriod: 0
   chainId: 53457
-  deployer:
-    name: DODO
-    url: http://dodoex.io
   displayName: DODOChain
   domainId: 53457
-  index:
-    from: 2000
   isTestnet: true
   name: dodotestnet
   nativeToken:
@@ -2556,10 +2110,6 @@ dodotestnet:
     - http: https://dodochain-testnet.alt.technology
   technicalStack: arbitrumnitro
 dogechain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.dogechain.dog/api
       family: blockscout
@@ -2570,9 +2120,6 @@ dogechain:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 2000
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Dogechain
   domainId: 2000
   gasCurrencyCoinGeckoId: dogecoin
@@ -2586,10 +2133,6 @@ dogechain:
     - http: https://rpc.dogechain.dog
   technicalStack: polygoncdk
 duckchain:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://scan.duckchain.io/api
       family: blockscout
@@ -2603,8 +2146,6 @@ duckchain:
   displayName: DuckChain
   domainId: 5545
   gasCurrencyCoinGeckoId: the-open-network
-  index:
-    from: 1149918
   name: duckchain
   nativeToken:
     decimals: 18
@@ -2624,9 +2165,6 @@ dymension:
   canonicalAsset: adym
   chainId: dymension_1100-1
   contractAddressBytes: 32
-  deployer:
-    name: DYMENSION
-    url: https://portal.dymension.xyz/
   displayName: Dymension
   domainId: 1570310961
   gasCurrencyCoinGeckoId: dymension
@@ -2635,8 +2173,6 @@ dymension:
     denom: adym
   grpcUrls:
     - http: https://grpc-dymension.mzonder.com:443
-  index:
-    from: 10201794
   isTestnet: false
   name: dymension
   nativeToken:
@@ -2662,14 +2198,9 @@ ebi:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 98881
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Ebi
   domainId: 98881
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 10689437
   name: ebi
   nativeToken:
     decimals: 18
@@ -2690,15 +2221,10 @@ echos:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 4321
-  deployer:
-    name: Stride Labs
-    url: https://www.stride.zone
   displayName: Echos
   displayNameShort: Echos
   domainId: 4321
   gasCurrencyCoinGeckoId: usd-coin
-  index:
-    from: 3206000
   name: echos
   nativeToken:
     decimals: 18
@@ -2718,9 +2244,6 @@ eclipsemainnet:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 1408864445
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Eclipse
   domainId: 1408864445
   gasCurrencyCoinGeckoId: ethereum
@@ -2740,9 +2263,6 @@ eclipsetestnet:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 239092742
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Eclipse Testnet
   domainId: 239092742
   gasCurrencyCoinGeckoId: ethereum
@@ -2757,10 +2277,6 @@ eclipsetestnet:
   rpcUrls:
     - http: https://testnet.dev2.eclipsenetwork.xyz
 ecotestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://eco-testnet.explorer.caldera.xyz/api
       family: blockscout
@@ -2771,9 +2287,6 @@ ecotestnet:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 471923
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Eco Testnet
   domainId: 471923
   gasCurrencyCoinGeckoId: ethereum
@@ -2797,9 +2310,6 @@ eden:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 714
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Eden
   domainId: 714
   gasCurrencyCoinGeckoId: celestia
@@ -2837,9 +2347,6 @@ edgenchain:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 4207
-  deployer:
-    name: LayerEdge
-    url: https://www.layeredge.io
   displayName: Edgen Chain
   domainId: 4207
   isTestnet: false
@@ -2863,9 +2370,6 @@ electroneum:
     estimateBlockTime: 5
     reorgPeriod: 10
   chainId: 52014
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Electroneum
   domainId: 52014
   gasCurrencyCoinGeckoId: electroneum
@@ -2879,10 +2383,6 @@ electroneum:
     - http: https://rpc.ankr.com/electroneum
   technicalStack: other
 endurance:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer-endurance.fusionist.io/api
       family: blockscout
@@ -2893,9 +2393,6 @@ endurance:
     estimateBlockTime: 12
     reorgPeriod: 15
   chainId: 648
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Endurance
   domainId: 648
   gasCurrencyCoinGeckoId: endurance
@@ -2920,9 +2417,6 @@ eni:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 173
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: ENI
   domainId: 173
   gasCurrencyCoinGeckoId: eniac-network
@@ -2937,8 +2431,7 @@ eni:
   technicalStack: other
 ethereum:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=1
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=1
       family: etherscan
       name: Etherscan
       url: https://etherscan.io
@@ -2955,9 +2448,6 @@ ethereum:
     estimateBlockTime: 13
     reorgPeriod: 15
   chainId: 1
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Ethereum
   domainId: 1
   gasCurrencyCoinGeckoId: ethereum
@@ -2986,9 +2476,6 @@ euphoriatestnet:
     estimateBlockTime: 6
     reorgPeriod: 0
   chainId: 6321
-  deployer:
-    name: hoanm
-    url: https://github.com/hoanm
   displayName: Euphoria Testnet
   domainId: 6321
   isTestnet: true
@@ -3001,10 +2488,6 @@ euphoriatestnet:
   rpcUrls:
     - http: https://jsonrpc.euphoria.aura.network
 everclear:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://scan.everclear.org/api
       family: blockscout
@@ -3015,14 +2498,9 @@ everclear:
     estimateBlockTime: 2
     reorgPeriod: 2
   chainId: 25327
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Everclear
   domainId: 25327
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 37
   name: everclear
   nativeToken:
     decimals: 18
@@ -3033,10 +2511,6 @@ everclear:
     - http: https://rpc.everclear.raas.gelato.cloud
   technicalStack: arbitrumnitro
 evmos:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://www.mintscan.io/evmos/api
       family: other
@@ -3063,10 +2537,6 @@ evmos:
     - http: https://evmos.drpc.org
   technicalStack: other
 fantom:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.ftmscan.com/api
       family: etherscan
@@ -3077,9 +2547,6 @@ fantom:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 250
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Fantom Opera
   domainId: 250
   gasCurrencyCoinGeckoId: fantom
@@ -3104,13 +2571,8 @@ fhenixtestnet:
       name: Fhenix Helium Testnet Explorer
       url: https://explorer.helium.fhenix.zone
   chainId: 8008135
-  deployer:
-    name: d0x471b
-    url: https://t.me/d0x471b
   displayName: Fhenix Helium Testnet
   domainId: 8008135
-  index:
-    from: 140556
   isTestnet: true
   name: fhenixtestnet
   nativeToken:
@@ -3145,10 +2607,6 @@ filecoin:
     - http: https://api.node.glif.io/rpc/v1
     - http: https://rpc.ankr.com/filecoin
 flame:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.flame.astria.org/api
       family: blockscout
@@ -3172,10 +2630,6 @@ flame:
     - http: https://rpc.flame.astria.org
   technicalStack: other
 flametestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.flame.dawn-1.astria.org/api
       family: blockscout
@@ -3186,9 +2640,6 @@ flametestnet:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 16604737732183
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Flame Dawn-1 Testnet
   displayNameShort: Flame Testnet
   domainId: 1660473773
@@ -3204,10 +2655,6 @@ flametestnet:
     - http: https://rpc.flame.dawn-1.astria.org
   technicalStack: other
 flare:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://flare-explorer.flare.network/api
       family: blockscout
@@ -3218,9 +2665,6 @@ flare:
     estimateBlockTime: 2
     reorgPeriod: 3
   chainId: 14
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Flare
   domainId: 14
   gasCurrencyCoinGeckoId: flare-networks
@@ -3239,10 +2683,6 @@ flare:
     - http: https://rpc.ankr.com/flare
   technicalStack: other
 flowmainnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://evm.flowscan.io/api
       family: blockscout
@@ -3253,9 +2693,6 @@ flowmainnet:
     estimateBlockTime: 1
     reorgPeriod: 25
   chainId: 747
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: EVM on Flow
   domainId: 1000000747
   gasCurrencyCoinGeckoId: flow
@@ -3270,12 +2707,10 @@ flowmainnet:
     - http: https://mainnet.evm.nodes.onflow.org
   technicalStack: other
   transactionOverrides:
+    # The minimum accepted gas price for transactions is: 16038000000 aka 16.038 gwei
+    # See: https://forum.flow.com/t/upcoming-mainnet-update-transaction-fee-changes-going-live-on-monday-dec-8th/8427
     gasPrice: 16038000000
 fluence:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://blockscout.mainnet.fluence.dev/api
       family: blockscout
@@ -3286,14 +2721,9 @@ fluence:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 9999999
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Fluence
   domainId: 9999999
   gasCurrencyCoinGeckoId: fluence-2
-  index:
-    from: 10997212
   name: fluence
   nativeToken:
     decimals: 18
@@ -3314,9 +2744,6 @@ fluent:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 25363
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Fluent
   domainId: 25363
   gasCurrencyCoinGeckoId: ethereum
@@ -3330,11 +2757,6 @@ fluent:
     - http: https://rpc.fluent.xyz
   technicalStack: other
 form:
-  availability:
-    reasons:
-      - deprecated
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.form.network/api
       family: blockscout
@@ -3345,9 +2767,6 @@ form:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 478
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Form
   domainId: 478
   gasCurrencyCoinGeckoId: ethereum
@@ -3362,10 +2781,6 @@ form:
     - http: https://rpc.form.network/http
   technicalStack: opstack
 forma:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.forma.art/api
       family: blockscout
@@ -3376,9 +2791,6 @@ forma:
     estimateBlockTime: 3
     reorgPeriod: 0
   chainId: 984122
-  deployer:
-    name: Codecrafting Labs
-    url: https://cclabs.tech
   displayName: Forma
   displayNameShort: Forma
   domainId: 984122
@@ -3392,10 +2804,6 @@ forma:
   rpcUrls:
     - http: https://rpc.forma.art
 formtestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://sepolia-explorer.form.network/api
       family: blockscout
@@ -3406,9 +2814,6 @@ formtestnet:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 132902
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Form Testnet
   domainId: 132902
   gasCurrencyCoinGeckoId: ethereum
@@ -3432,9 +2837,6 @@ fractal:
     estimateBlockTime: 24
     reorgPeriod: 0
   chainId: 2152
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Fractal Confluence
   displayNameShort: Fractal
   domainId: 2152
@@ -3450,8 +2852,7 @@ fractal:
   technicalStack: other
 fraxtal:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=252
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=252
       family: etherscan
       name: Fraxscan
       url: https://fraxscan.com
@@ -3464,9 +2865,6 @@ fraxtal:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 252
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Fraxtal
   domainId: 252
   gasCurrencyCoinGeckoId: frax-share
@@ -3488,9 +2886,6 @@ fraxtaltestnet:
       name: Fraxtal Testnet Explorer
       url: https://holesky.fraxscan.com
   chainId: 2522
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Fraxtal Testnet
   domainId: 2522
   isTestnet: true
@@ -3513,9 +2908,6 @@ fuji:
     estimateBlockTime: 2
     reorgPeriod: 3
   chainId: 43113
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Fuji
   domainId: 43113
   gasCurrencyCoinGeckoId: avalanche-2
@@ -3553,10 +2945,6 @@ funki:
   rpcUrls:
     - http: https://rpc-mainnet.funkichain.com
 fusemainnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.fuse.io/api
       family: etherscan
@@ -3567,9 +2955,6 @@ fusemainnet:
     estimateBlockTime: 5
     reorgPeriod: 19
   chainId: 122
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Fuse
   domainId: 122
   gasCurrencyCoinGeckoId: fuse-network-token
@@ -3597,14 +2982,9 @@ galactica:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 613419
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Galactica
   domainId: 613419
   gasCurrencyCoinGeckoId: galactica-com
-  index:
-    from: 851
   isTestnet: false
   name: galactica
   nativeToken:
@@ -3622,9 +3002,6 @@ galadrieldevnet:
       name: Galadriel Devnet explorer
       url: https://explorer.galadriel.com
   chainId: 696969
-  deployer:
-    name: remsee
-    url: https://t.me/remsee90
   displayName: Galadriel Devnet
   domainId: 696969
   isTestnet: true
@@ -3637,10 +3014,6 @@ galadrieldevnet:
   rpcUrls:
     - http: https://devnet.galadriel.com
 game7:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://mainnet.game7.io/api
       family: blockscout
@@ -3651,14 +3024,9 @@ game7:
     estimateBlockTime: 5
     reorgPeriod: 0
   chainId: 2187
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Game7
   domainId: 2187
   gasCurrencyCoinGeckoId: game7
-  index:
-    from: 1635677
   isTestnet: false
   name: game7
   nativeToken:
@@ -3670,10 +3038,6 @@ game7:
     - http: https://mainnet-rpc.game7.build
   technicalStack: arbitrumnitro
 giwasepolia:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://sepolia-explorer.giwa.io/api
       family: blockscout
@@ -3684,9 +3048,6 @@ giwasepolia:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 91342
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: GIWA Sepolia
   domainId: 91342
   isTestnet: true
@@ -3700,10 +3061,6 @@ giwasepolia:
     - http: https://sepolia-rpc.giwa.io
   technicalStack: opstack
 glue:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.glue.net/api
       family: blockscout
@@ -3728,8 +3085,7 @@ glue:
   technicalStack: other
 gnosis:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=100
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=100
       family: etherscan
       name: GnosisScan
       url: https://gnosisscan.io
@@ -3738,9 +3094,6 @@ gnosis:
     estimateBlockTime: 5
     reorgPeriod: 5
   chainId: 100
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Gnosis
   domainId: 100
   gasCurrencyCoinGeckoId: xdai
@@ -3768,9 +3121,6 @@ gnosischiadotestnet:
     estimateBlockTime: 5
     reorgPeriod: 5
   chainId: 10200
-  deployer:
-    name: k4ctuss
-    url: https://github.com/k4ctuss
   displayName: Gnosis Chiado Testnet
   domainId: 10200
   isTestnet: true
@@ -3784,10 +3134,6 @@ gnosischiadotestnet:
     - http: https://gnosis-chiado-rpc.publicnode.com
   technicalStack: other
 gravity:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.gravity.xyz/api
       family: blockscout
@@ -3798,15 +3144,10 @@ gravity:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 1625
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Gravity Alpha Mainnet
   displayNameShort: Gravity
   domainId: 1625
   gasCurrencyCoinGeckoId: g-token
-  index:
-    from: 13374779
   name: gravity
   nativeToken:
     decimals: 18
@@ -3817,10 +3158,6 @@ gravity:
     - http: https://rpc.gravity.xyz
   technicalStack: arbitrumnitro
 guru:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://blockscout.gurunetwork.ai/api
       family: blockscout
@@ -3866,10 +3203,6 @@ ham:
   rpcUrls:
     - http: https://rpc.ham.fun
 harmony:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.harmony.one/api
       family: blockscout
@@ -3880,9 +3213,6 @@ harmony:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 1666600000
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Harmony One
   domainId: 1666600000
   gasCurrencyCoinGeckoId: harmony
@@ -3904,9 +3234,6 @@ harmonytestnet:
       name: Harmony Testnet Explorer
       url: https://explorer.testnet.harmony.one
   chainId: 1666700000
-  deployer:
-    name: JaunePomme
-    url: https://github.com/JaunePomme
   displayName: Harmony Testnet
   domainId: 1666700000
   isTestnet: true
@@ -3919,10 +3246,6 @@ harmonytestnet:
   rpcUrls:
     - http: https://api.s0.b.hmny.io
 hashkey:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.hsk.xyz/api
       family: blockscout
@@ -3933,9 +3256,6 @@ hashkey:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 177
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Hashkey
   domainId: 177
   gasCurrencyCoinGeckoId: hashkey-ecopoints
@@ -3950,10 +3270,6 @@ hashkey:
     - http: https://mainnet.hsk.xyz
   technicalStack: other
 hemi:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.hemi.xyz/api
       family: blockscout
@@ -3964,9 +3280,6 @@ hemi:
     estimateBlockTime: 12
     reorgPeriod: 5
   chainId: 43111
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Hemi Network
   domainId: 43111
   gasCurrencyCoinGeckoId: ethereum
@@ -3986,13 +3299,8 @@ heneztestnet:
       name: Henez Testnet Explorer
       url: https://explorer.henez.fi
   chainId: 91111
-  deployer:
-    name: Henez Foundation
-    url: https://www.henez.fi
   displayName: Henez Testnet
   domainId: 91111
-  index:
-    from: 1714457
   isTestnet: true
   name: heneztestnet
   nativeToken:
@@ -4004,11 +3312,6 @@ heneztestnet:
     - http: https://henez-testnet.rpc.caldera.xyz/http
   technicalStack: arbitrumnitro
 holesky:
-  availability:
-    reasons:
-      - deprecated
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://api-holesky.etherscan.io/api
       family: etherscan
@@ -4019,9 +3322,6 @@ holesky:
     estimateBlockTime: 13
     reorgPeriod: 2
   chainId: 17000
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Holesky
   domainId: 17000
   gasCurrencyCoinGeckoId: ethereum
@@ -4041,9 +3341,6 @@ humanitytestnet:
       name: Humanity Protocol Testnet Explorer
       url: https://explorer.testnet.humanity.org
   chainId: 1942999413
-  deployer:
-    name: JunayedMh
-    url: https://github.com/JunayedMh
   displayName: Humanity Protocol Testnet
   domainId: 1942999413
   isTestnet: true
@@ -4057,8 +3354,7 @@ humanitytestnet:
     - http: https://rpc.testnet.humanity.org
 hyperevm:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=999
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=999
       family: etherscan
       name: HyperEVM Scan
       url: https://hyperevmscan.io
@@ -4071,9 +3367,6 @@ hyperevm:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 999
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: HyperEVM
   domainId: 999
   gasCurrencyCoinGeckoId: hyperliquid
@@ -4098,9 +3391,6 @@ hyperliquidevmtestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 998
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Hyperliquid EVM Testnet
   domainId: 998
   gasCurrencyCoinGeckoId: hyperliquid
@@ -4124,9 +3414,6 @@ igra:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 38833
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Igra
   domainId: 38833
   gasCurrencyCoinGeckoId: wrapped-ikas-zealous-swap
@@ -4143,10 +3430,6 @@ igra:
   transactionOverrides:
     gasPrice: 1000000000000
 immutablezkevmmainnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.immutable.com/api
       family: blockscout
@@ -4157,9 +3440,6 @@ immutablezkevmmainnet:
     estimateBlockTime: 2
     reorgPeriod: 20
   chainId: 13371
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Immutable zkEVM
   domainId: 1000013371
   gasCurrencyCoinGeckoId: immutable-x
@@ -4177,10 +3457,6 @@ immutablezkevmmainnet:
     maxFeePerGas: 100000000000
     maxPriorityFeePerGas: 100000000000
 incentiv:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: http://explorer.incentiv.io/api
       family: blockscout
@@ -4191,9 +3467,6 @@ incentiv:
     estimateBlockTime: 5
     reorgPeriod: 10
   chainId: 24101
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Incentiv
   domainId: 24101
   gasCurrencyCoinGeckoId: incentiv
@@ -4207,10 +3480,6 @@ incentiv:
     - http: https://rpc-archive.incentiv.io
   technicalStack: other
 incentivtestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer-testnet.incentiv.io/api
       family: blockscout
@@ -4221,9 +3490,6 @@ incentivtestnet:
     estimateBlockTime: 10
     reorgPeriod: 1
   chainId: 28802
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Incentiv Testnet v2
   domainId: 28802
   isTestnet: true
@@ -4247,13 +3513,8 @@ inclusivelayertestnet:
     estimateBlockTime: 60
     reorgPeriod: 1
   chainId: 71461164656
-  deployer:
-    name: aditya172926
-    url: https://github.com/aditya172926
   displayName: Inclusive Layer Testnet
   domainId: 3461164656
-  index:
-    from: 4306
   isTestnet: true
   name: inclusivelayertestnet
   nativeToken:
@@ -4265,10 +3526,6 @@ inclusivelayertestnet:
     - http: http://192.241.245.190:18449
   technicalStack: arbitrumnitro
 inevm:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://inevm.calderaexplorer.xyz/api
       family: blockscout
@@ -4279,15 +3536,10 @@ inevm:
     estimateBlockTime: 3
     reorgPeriod: 3
   chainId: 2525
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Injective EVM
   displayNameShort: inEVM
   domainId: 2525
   gasCurrencyCoinGeckoId: injective-protocol
-  index:
-    from: 37
   name: inevm
   nativeToken:
     decimals: 18
@@ -4299,10 +3551,6 @@ inevm:
     - http: https://mainnet.rpc.inevm.com/http
   technicalStack: arbitrumnitro
 infinityvm:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blocks:
     confirmations: 1
     estimateBlockTime: 1
@@ -4311,8 +3559,6 @@ infinityvm:
   displayName: Infinity VM
   domainId: 1032009
   gasCurrencyCoinGeckoId: infinityvm
-  index:
-    from: 157889
   name: infinityvm
   nativeToken:
     decimals: 18
@@ -4323,23 +3569,14 @@ infinityvm:
     - http: https://mainnet-endpoint.infinityvm.xyz
   technicalStack: other
 infinityvmmainnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blocks:
     confirmations: 1
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 1032009
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Infinity VM
   domainId: 1001032009
   gasCurrencyCoinGeckoId: infinityvm
-  index:
-    from: 157889
   name: infinityvmmainnet
   nativeToken:
     decimals: 18
@@ -4350,22 +3587,13 @@ infinityvmmainnet:
     - http: https://rpc.infinityvm.xyz
   technicalStack: other
 infinityvmmonza:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blocks:
     confirmations: 1
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 96025
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Infinity VM Monza Testnet
   domainId: 96025
-  index:
-    from: 338182
   isTestnet: true
   name: infinityvmmonza
   nativeToken:
@@ -4377,11 +3605,6 @@ infinityvmmonza:
     - http: https://rpc.monza.infinityvm.xyz
   technicalStack: other
 injective:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
-  bech32Prefix: inj
   blockExplorers:
     - apiUrl: https://apis.mintscan.io/v1/injective
       family: other
@@ -4394,9 +3617,6 @@ injective:
   canonicalAsset: inj
   chainId: injective-1
   contractAddressBytes: 20
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Injective
   domainId: 6909546
   gasCurrencyCoinGeckoId: injective-protocol
@@ -4405,9 +3625,6 @@ injective:
     denom: inj
   grpcUrls:
     - http: https://injective-grpc.goldenratiostaking.net:443
-  index:
-    chunk: 25
-    from: 58419500
   name: injective
   nativeToken:
     decimals: 18
@@ -4437,9 +3654,6 @@ ink:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 57073
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Ink
   domainId: 57073
   gasCurrencyCoinGeckoId: ethereum
@@ -4454,10 +3668,6 @@ ink:
     - http: https://rpc-qnd.inkonchain.com
   technicalStack: opstack
 inksepolia:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer-sepolia.inkonchain.com/api
       family: blockscout
@@ -4468,9 +3678,6 @@ inksepolia:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 763373
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Ink Sepolia
   domainId: 763373
   gnosisSafeTransactionServiceUrl: https://kraken-sepolia.superchain.safe.protofire.io
@@ -4485,10 +3692,6 @@ inksepolia:
     - http: https://rpc-qnd-sepolia.inkonchain.com
   technicalStack: opstack
 kaia:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api-cypress.klaytnscope.com/api
       family: etherscan
@@ -4499,9 +3702,6 @@ kaia:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 8217
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Kaia
   domainId: 8217
   gasCurrencyCoinGeckoId: kaia
@@ -4525,9 +3725,6 @@ kalychain:
     estimateBlockTime: 2
     reorgPeriod: 2
   chainId: 3888
-  deployer:
-    name: Kaly Chain
-    url: https://www.kalychain.io
   displayName: KalyChain
   domainId: 3888
   name: kalychain
@@ -4549,9 +3746,6 @@ katana:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 747474
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Katana
   domainId: 747474
   gasCurrencyCoinGeckoId: ethereum
@@ -4603,9 +3797,6 @@ kiichain:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 1783
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Kiichain
   domainId: 1783
   gasCurrencyCoinGeckoId: kiichain
@@ -4629,14 +3820,9 @@ kinto:
     estimateBlockTime: 5
     reorgPeriod: 0
   chainId: 7887
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Kinto
   domainId: 7887
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 215193
   name: kinto
   nativeToken:
     decimals: 18
@@ -4653,9 +3839,6 @@ koitestnet:
       name: Koi Explorer
       url: https://koi-scan.darwinia.network
   chainId: 701
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Koi Testnet
   domainId: 701
   isTestnet: true
@@ -4668,10 +3851,6 @@ koitestnet:
   rpcUrls:
     - http: https://koi-rpc.darwinia.network
 kroma:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://blockscout.kroma.network/api
       family: blockscout
@@ -4702,9 +3881,6 @@ krown:
     estimateBlockTime: 12
     reorgPeriod: finalized
   chainId: 1983
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Krown
   domainId: 1983
   gasCurrencyCoinGeckoId: krown-network
@@ -4731,9 +3907,6 @@ kyve:
   canonicalAsset: ukyve
   chainId: kyve-1
   contractAddressBytes: 32
-  deployer:
-    name: KYVE
-    url: https://kyve.network
   displayName: KYVE
   domainId: 1264145989
   gasCurrencyCoinGeckoId: kyve-network
@@ -4742,9 +3915,6 @@ kyve:
     denom: ukyve
   grpcUrls:
     - http: https://grpc-raw.kyve.network
-  index:
-    chunk: 10
-    from: 11592376
   name: kyve
   nativeToken:
     decimals: 6
@@ -4774,9 +3944,6 @@ kyvetestnet:
   canonicalAsset: tkyve
   chainId: kaon-1
   contractAddressBytes: 32
-  deployer:
-    name: KYVE
-    url: https://kyve.network
   displayName: KYVE Testnet
   domainId: 1262571342
   gasPrice:
@@ -4784,9 +3951,6 @@ kyvetestnet:
     denom: tkyve
   grpcUrls:
     - http: https://grpc-raw.kaon.kyve.network
-  index:
-    chunk: 10
-    from: 11470395
   isTestnet: true
   name: kyvetestnet
   nativeToken:
@@ -4814,9 +3978,6 @@ lazai:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 52924
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: LazAI
   domainId: 52924
   gasCurrencyCoinGeckoId: metis-token
@@ -4831,8 +3992,7 @@ lazai:
   technicalStack: other
 linea:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=59144
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=59144
       family: etherscan
       name: LineaScan
       url: https://lineascan.build
@@ -4845,9 +4005,6 @@ linea:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 59144
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Linea
   domainId: 59144
   gasCurrencyCoinGeckoId: ethereum
@@ -4870,9 +4027,6 @@ lineasepolia:
       name: Linea Sepolia Explorer
       url: https://sepolia.lineascan.build
   chainId: 59141
-  deployer:
-    name: k4ctuss
-    url: https://github.com/k4ctuss
   displayName: Linea Sepolia
   domainId: 59141
   isTestnet: true
@@ -4887,10 +4041,6 @@ lineasepolia:
     - http: https://linea-sepolia-rpc.publicnode.com
     - http: https://linea-sepolia.drpc.org
 lisk:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://blockscout.lisk.com/api/eth-rpc
       family: blockscout
@@ -4905,9 +4055,6 @@ lisk:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 1135
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Lisk
   domainId: 1135
   gasCurrencyCoinGeckoId: ethereum
@@ -4928,9 +4075,6 @@ lisksepolia:
       name: Lisk Sepolia Testnet Explorer
       url: https://sepolia-blockscout.lisk.com
   chainId: 4202
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Lisk Sepolia
   domainId: 4202
   gnosisSafeTransactionServiceUrl: https://transaction-lisk-sepolia.safe.optimism.io
@@ -4944,10 +4088,6 @@ lisksepolia:
   rpcUrls:
     - http: https://rpc.sepolia-api.lisk.com
 litchain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://lit-chain-explorer.litprotocol.com/api
       family: blockscout
@@ -4958,14 +4098,9 @@ litchain:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 175200
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Lit Chain
   domainId: 175200
   gasCurrencyCoinGeckoId: lit-protocol
-  index:
-    from: 854
   name: litchain
   nativeToken:
     decimals: 18
@@ -4986,9 +4121,6 @@ lukso:
     estimateBlockTime: 12
     reorgPeriod: 15
   chainId: 42
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: LUKSO
   domainId: 42
   gasCurrencyCoinGeckoId: lukso-token-2
@@ -5014,9 +4146,6 @@ luksotestnet:
     estimateBlockTime: 12
     reorgPeriod: 14
   chainId: 4201
-  deployer:
-    name: LUKSO Team
-    url: https://lukso.network
   displayName: LUKSO Testnet
   domainId: 4201
   isTestnet: true
@@ -5030,10 +4159,6 @@ luksotestnet:
     - http: https://rpc.testnet.lukso.network
   technicalStack: other
 lumia:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.lumia.org/api/eth-rpc
       family: blockscout
@@ -5044,14 +4169,9 @@ lumia:
     estimateBlockTime: 4
     reorgPeriod: 5
   chainId: 994873017
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Lumia Prism
   domainId: 994873017
-  gasCurrencyCoinGeckoId: orion-protocol
-  index:
-    from: 1923136
+  gasCurrencyCoinGeckoId: orion-protocol # ORN->LUMIA 1:1
   name: lumia
   nativeToken:
     decimals: 18
@@ -5062,10 +4182,6 @@ lumia:
     - http: https://mainnet-rpc.lumia.org
   technicalStack: polygoncdk
 lumiaprism:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.lumia.org/api/eth-rpc
       family: blockscout
@@ -5076,9 +4192,6 @@ lumiaprism:
     estimateBlockTime: 4
     reorgPeriod: 5
   chainId: 994873017
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Lumia Prism
   domainId: 1000073017
   gasCurrencyCoinGeckoId: lumia
@@ -5092,10 +4205,6 @@ lumiaprism:
     - http: https://mainnet-rpc.lumia.org
   technicalStack: polygoncdk
 mantapacific:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://pacific-explorer.manta.network/api
       family: blockscout
@@ -5106,9 +4215,6 @@ mantapacific:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 169
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Manta Pacific
   displayNameShort: Manta
   domainId: 169
@@ -5132,9 +4238,6 @@ mantapacifictestnet:
       name: Manta Sepolia Explorer
       url: https://pacific-explorer.sepolia-testnet.manta.network
   chainId: 3441006
-  deployer:
-    name: JaunePomme
-    url: https://github.com/JaunePomme
   displayName: Manta Pacific Testnet
   domainId: 3441006
   isTestnet: true
@@ -5161,9 +4264,6 @@ mantle:
     estimateBlockTime: 2
     reorgPeriod: 2
   chainId: 5000
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Mantle
   domainId: 5000
   gasCurrencyCoinGeckoId: mantle
@@ -5184,9 +4284,6 @@ mantlesepolia:
       name: Mantle Testnet Explorer
       url: https://sepolia.mantlescan.xyz
   chainId: 5003
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Mantle Sepolia
   domainId: 5003
   isTestnet: true
@@ -5209,9 +4306,6 @@ mantra:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 5888
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: MANTRA
   domainId: 5888
   gasCurrencyCoinGeckoId: mantra
@@ -5225,10 +4319,6 @@ mantra:
     - http: https://evm.mantrachain.io
   technicalStack: other
 matchain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://matchscan.io/api
       family: blockscout
@@ -5239,9 +4329,6 @@ matchain:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 698
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Matchain
   domainId: 698
   gasCurrencyCoinGeckoId: binancecoin
@@ -5258,10 +4345,6 @@ matchain:
         maxBlockRange: 1000
   technicalStack: opstack
 megaeth:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://megaeth.blockscout.com/api
       family: blockscout
@@ -5272,9 +4355,6 @@ megaeth:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 4326
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: MegaETH
   domainId: 4326
   gasCurrencyCoinGeckoId: ethereum
@@ -5289,10 +4369,6 @@ megaeth:
     - http: https://mainnet.megaeth.com/rpc
   technicalStack: opstack
 megaethtestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://www.megaexplorer.xyz/api
       family: other
@@ -5303,9 +4379,6 @@ megaethtestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 6342
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: MegaETH Testnet
   domainId: 6342
   isTestnet: true
@@ -5319,10 +4392,6 @@ megaethtestnet:
     - http: https://carrot.megaeth.com/rpc
   technicalStack: other
 merlin:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://scan.merlinchain.io/api
       family: other
@@ -5333,9 +4402,6 @@ merlin:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 4200
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Merlin
   domainId: 4200
   gasCurrencyCoinGeckoId: merlin-chain-bridged-wrapped-btc-merlin
@@ -5360,9 +4426,6 @@ metal:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 1750
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Metal L2
   domainId: 1000001750
   gasCurrencyCoinGeckoId: ethereum
@@ -5385,9 +4448,6 @@ metall2testnet:
       name: Metal L2 Testnet Explorer
       url: https://testnet.explorer.metall2.com
   chainId: 1740
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Metal L2 Testnet
   domainId: 1740
   isTestnet: true
@@ -5406,9 +4466,6 @@ metertestnet:
       name: Meter Testnet Explorer
       url: https://scan.meter.io
   chainId: 83
-  deployer:
-    name: JaunePomme
-    url: https://github.com/JaunePomme
   displayName: Meter testnet
   domainId: 83
   isTestnet: true
@@ -5435,14 +4492,9 @@ metis:
     estimateBlockTime: 5
     reorgPeriod: 5
   chainId: 1088
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Metis Andromeda
   domainId: 1088
   gasCurrencyCoinGeckoId: metis-token
-  index:
-    from: 17966274
   name: metis
   nativeToken:
     decimals: 18
@@ -5463,9 +4515,6 @@ mevmdevnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 30732
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Movement EVM Devnet
   domainId: 30732
   gasCurrencyCoinGeckoId: movement
@@ -5479,11 +4528,6 @@ mevmdevnet:
   rpcUrls:
     - http: https://mevm.devnet.imola.movementlabs.xyz
 milkyway:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
-  bech32Prefix: milk
   blocks:
     confirmations: 1
     estimateBlockTime: 6
@@ -5491,9 +4535,6 @@ milkyway:
   canonicalAsset: umilk
   chainId: milkyway
   contractAddressBytes: 32
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: MilkyWay
   domainId: 1835625579
   gasCurrencyCoinGeckoId: milkyway-2
@@ -5502,9 +4543,6 @@ milkyway:
     denom: umilk
   grpcUrls:
     - http: https://grpc.mainnet.milkyway.zone/
-  index:
-    chunk: 10
-    from: 2249100
   name: milkyway
   nativeToken:
     decimals: 6
@@ -5521,11 +4559,6 @@ milkyway:
   transactionOverrides:
     gasPrice: "0.03"
 milkywaytestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
-  bech32Prefix: milk
   blocks:
     confirmations: 1
     estimateBlockTime: 6
@@ -5533,9 +4566,6 @@ milkywaytestnet:
   canonicalAsset: umilk
   chainId: ceers-2112
   contractAddressBytes: 32
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Milkyway Testnet
   domainId: 1162171030
   gasPrice:
@@ -5543,9 +4573,6 @@ milkywaytestnet:
     denom: umilk
   grpcUrls:
     - http: https://grpc.testnet.milkyway.zone/
-  index:
-    chunk: 10
-    from: 2449750
   isTestnet: true
   name: milkywaytestnet
   nativeToken:
@@ -5563,10 +4590,6 @@ milkywaytestnet:
   transactionOverrides:
     gasPrice: "0.0"
 mint:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.mintchain.io/api
       family: blockscout
@@ -5577,9 +4600,6 @@ mint:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 185
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Mint
   domainId: 185
   gasCurrencyCoinGeckoId: ethereum
@@ -5612,10 +4632,6 @@ mintsepoliatest:
   rpcUrls:
     - http: https://sepolia-testnet-rpc.mintchain.io
 miraclechain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.miracleplay.io/api
       family: blockscout
@@ -5626,14 +4642,9 @@ miraclechain:
     estimateBlockTime: 3
     reorgPeriod: 0
   chainId: 92278
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Miraclechain
   domainId: 92278
   gasCurrencyCoinGeckoId: miracle-play
-  index:
-    from: 84964
   name: miraclechain
   nativeToken:
     decimals: 18
@@ -5654,9 +4665,6 @@ mitosis:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 124816
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Mitosis
   domainId: 124816
   gasCurrencyCoinGeckoId: mitosis
@@ -5676,9 +4684,6 @@ mitosistestnet:
       name: Mitosis Testnet Scan
       url: https://testnet.mitosiscan.xyz
   chainId: 124832
-  deployer:
-    name: JunayedMh
-    url: https://github.com/JunayedMh
   displayName: Mitosis Testnet
   domainId: 124832
   isTestnet: true
@@ -5701,9 +4706,6 @@ mocachain:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 2288
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Moca Chain
   domainId: 2288
   gasCurrencyCoinGeckoId: mocaverse
@@ -5731,9 +4733,6 @@ mode:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 34443
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Mode
   domainId: 34443
   gasCurrencyCoinGeckoId: ethereum
@@ -5759,9 +4758,6 @@ modetestnet:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 919
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Mode Testnet
   domainId: 919
   gnosisSafeTransactionServiceUrl: https://transaction-mode-sepolia.safe.optimism.io
@@ -5776,10 +4772,6 @@ modetestnet:
     - http: https://sepolia.mode.network
   technicalStack: opstack
 molten:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://molten.calderaexplorer.xyz/api
       family: blockscout
@@ -5790,14 +4782,9 @@ molten:
     estimateBlockTime: 30
     reorgPeriod: 0
   chainId: 360
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Molten
   domainId: 360
   gasCurrencyCoinGeckoId: molten-2
-  index:
-    from: 4707345
   name: molten
   nativeToken:
     decimals: 18
@@ -5809,8 +4796,7 @@ molten:
   technicalStack: arbitrumnitro
 monad:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=143
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=143
       family: etherscan
       name: MonadScan
       url: https://monadscan.com
@@ -5823,9 +4809,6 @@ monad:
     estimateBlockTime: 0.3
     reorgPeriod: 1
   chainId: 143
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Monad
   domainId: 143
   gasCurrencyCoinGeckoId: monad
@@ -5840,10 +4823,6 @@ monad:
     - http: https://rpc-mainnet.monadinfra.com
   technicalStack: other
 monadtestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.monad-testnet.category.xyz/api
       family: blockscout
@@ -5854,9 +4833,6 @@ monadtestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 10143
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Monad Testnet
   domainId: 10143
   isTestnet: true
@@ -5876,9 +4852,6 @@ moonbase:
       name: Moonbase Alpha Testnet Explorer
       url: https://moonbase.moonscan.io
   chainId: 1287
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Moonbase Testnet
   domainId: 1287
   isTestnet: true
@@ -5892,13 +4865,8 @@ moonbase:
     - http: https://moonbase-alpha.drpc.org
     - http: https://rpc.testnet.moonbeam.network
 moonbeam:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
-    - apiKey: DDAT4TGIUSSV8MR489UJ21R34WGA1MM2GG
-      apiUrl: https://api-moonbeam.moonscan.io/api
+    - apiUrl: https://api-moonbeam.moonscan.io/api
       family: etherscan
       name: MoonScan
       url: https://moonscan.io
@@ -5907,9 +4875,6 @@ moonbeam:
     estimateBlockTime: 12
     reorgPeriod: finalized
   chainId: 1284
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Moonbeam
   domainId: 1284
   gasCurrencyCoinGeckoId: moonbeam
@@ -5930,9 +4895,6 @@ moonriver:
       name: Moonriver Chain Explorer
       url: https://moonriver.moonscan.io
   chainId: 1285
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Moonriver
   domainId: 1285
   isTestnet: false
@@ -5948,10 +4910,6 @@ moonriver:
     - http: https://rpc.api.moonriver.moonbeam.network
     - http: https://moonriver.drpc.org
 morph:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer-api.morphl2.io/api
       family: blockscout
@@ -5962,9 +4920,6 @@ morph:
     estimateBlockTime: 4
     reorgPeriod: 5
   chainId: 2818
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Morph
   domainId: 2818
   gasCurrencyCoinGeckoId: ethereum
@@ -5988,9 +4943,6 @@ nara:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 40778959
-  deployer:
-    name: Nara
-    url: https://nara.build
   displayName: Nara
   domainId: 40778959
   name: nara
@@ -6009,9 +4961,6 @@ nautilus:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 22222
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Nautilus
   domainId: 22222
   gasCurrencyCoinGeckoId: zebec-protocol
@@ -6035,9 +4984,6 @@ neoxt4:
     estimateBlockTime: 15
     reorgPeriod: 12
   chainId: 12227332
-  deployer:
-    name: Neo Global Development
-    url: https://x.neo.org
   displayName: NeoX T4
   domainId: 12227332
   isTestnet: true
@@ -6054,10 +5000,6 @@ neoxt4:
     maxFeePerGas: 40000000000
     maxPriorityFeePerGas: 20000000000
 nero:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.neroscan.io/api
       family: etherscan
@@ -6095,9 +5037,6 @@ nesa:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 41443
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Nesa
   domainId: 41443
   gasCurrencyCoinGeckoId: nesa-ai-token
@@ -6121,9 +5060,6 @@ nesachain:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 41444
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Nesa
   domainId: 41444
   gasCurrencyCoinGeckoId: nesa-ai-token
@@ -6137,10 +5073,6 @@ nesachain:
     - http: https://erpc.nesa.ai
   technicalStack: other
 neuratestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://testnet-blockscout.infra.neuraprotocol.io/api
       family: blockscout
@@ -6151,9 +5083,6 @@ neuratestnet:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 267
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Neura Testnet
   domainId: 267
   isTestnet: true
@@ -6167,11 +5096,6 @@ neuratestnet:
     - http: https://rpc.ankr.com/neura_testnet
   technicalStack: other
 neutron:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
-  bech32Prefix: neutron
   blockExplorers:
     - apiUrl: https://apis.mintscan.io/v1/neutron
       family: other
@@ -6184,9 +5108,6 @@ neutron:
   canonicalAsset: untrn
   chainId: neutron-1
   contractAddressBytes: 32
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Neutron
   domainId: 1853125230
   gasCurrencyCoinGeckoId: neutron-3
@@ -6195,9 +5116,6 @@ neutron:
     denom: untrn
   grpcUrls:
     - http: http://grpc-kralum.neutron-1.neutron.org:80
-  index:
-    chunk: 5
-    from: 4000000
   name: neutron
   nativeToken:
     decimals: 6
@@ -6225,9 +5143,6 @@ nexus:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 3946
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Nexus
   domainId: 3946
   gasCurrencyCoinGeckoId: nexus-4
@@ -6241,10 +5156,6 @@ nexus:
     - http: https://mainnet.rpc.nexus.xyz
   technicalStack: other
 nibiru:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/6900/etherscan/api
       family: routescan
@@ -6255,9 +5166,6 @@ nibiru:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 6900
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Nibiru
   domainId: 6900
   gasCurrencyCoinGeckoId: nibiru
@@ -6271,11 +5179,6 @@ nibiru:
     - http: https://evm-rpc.nibiru.fi
   technicalStack: other
 noble:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
-  bech32Prefix: noble
   blockExplorers:
     - apiUrl: https://www.mintscan.io/noble
       family: other
@@ -6288,9 +5191,6 @@ noble:
   canonicalAsset: uusdn
   chainId: noble-1
   contractAddressBytes: 32
-  deployer:
-    name: Noble
-    url: https://noble.xyz
   displayName: Noble
   domainId: 1313817164
   gasCurrencyCoinGeckoId: noble-dollar-usdn
@@ -6300,9 +5200,6 @@ noble:
   grpcUrls:
     - http: http://noble-grpc.polkachu.com:21590
     - http: https://grpc.noble.xyz:443
-  index:
-    chunk: 10
-    from: 28613000
   name: noble
   nativeToken:
     decimals: 6
@@ -6321,11 +5218,6 @@ noble:
   transactionOverrides:
     gasPrice: 0.1
 nobletestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
-  bech32Prefix: noble
   blockExplorers:
     - apiUrl: https://www.mintscan.io/noble-testnet
       family: other
@@ -6338,9 +5230,6 @@ nobletestnet:
   canonicalAsset: uusdn
   chainId: grand-1
   contractAddressBytes: 32
-  deployer:
-    name: Noble
-    url: https://noble.xyz
   displayName: Noble Testnet
   domainId: 1196573006
   gasPrice:
@@ -6348,9 +5237,6 @@ nobletestnet:
     denom: uusdn
   grpcUrls:
     - http: http://noble-testnet-grpc.polkachu.com:21590
-  index:
-    chunk: 10
-    from: 29035000
   isTestnet: true
   name: nobletestnet
   nativeToken:
@@ -6370,10 +5256,6 @@ nobletestnet:
   transactionOverrides:
     gasPrice: 0.1
 odysseytestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://odyssey-explorer.ithaca.xyz/api
       family: blockscout
@@ -6384,9 +5266,6 @@ odysseytestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 911867
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Odyssey Testnet
   domainId: 911867
   isTestnet: true
@@ -6399,10 +5278,6 @@ odysseytestnet:
   rpcUrls:
     - http: https://odyssey.ithaca.xyz
 ontology:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.ont.io/api
       family: other
@@ -6413,9 +5288,6 @@ ontology:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 58
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Ontology
   domainId: 58
   gasCurrencyCoinGeckoId: ong
@@ -6429,10 +5301,6 @@ ontology:
     - http: https://dappnode4.ont.io:10339
   technicalStack: other
 oortmainnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://mainnet-scan.oortech.com/api
       family: other
@@ -6443,9 +5311,6 @@ oortmainnet:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 970
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Oort
   domainId: 970
   gasCurrencyCoinGeckoId: oort
@@ -6459,13 +5324,8 @@ oortmainnet:
     - http: https://mainnet-rpc.oortech.com
   technicalStack: other
 opbnb:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=204
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=204
       family: etherscan
       name: opBNB Scan
       url: https://opbnb.bscscan.com
@@ -6474,9 +5334,6 @@ opbnb:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 204
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: opBNB
   domainId: 204
   gasCurrencyCoinGeckoId: binancecoin
@@ -6499,9 +5356,6 @@ opbnbtestnet:
       name: opbnbscan
       url: https://opbnb-testnet.bscscan.com
   chainId: 5611
-  deployer:
-    name: JunayedMh
-    url: https://github.com/JunayedMh
   displayName: Op Bnb Testnet
   domainId: 5611
   isTestnet: true
@@ -6525,9 +5379,6 @@ opengradienttestnet:
     estimateBlockTime: 30
     reorgPeriod: 0
   chainId: 2970285607590380
-  deployer:
-    name: Opengradient team
-    url: https://opengradient.ai
   displayName: Opengradient Testnet
   domainId: 297028
   isTestnet: true
@@ -6541,8 +5392,7 @@ opengradienttestnet:
     - http: http://18.218.115.248:8545
 optimism:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=10
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=10
       family: etherscan
       name: Etherscan
       url: https://optimistic.etherscan.io
@@ -6559,9 +5409,6 @@ optimism:
     estimateBlockTime: 2
     reorgPeriod: 10
   chainId: 10
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Optimism
   domainId: 10
   gasCurrencyCoinGeckoId: ethereum
@@ -6580,8 +5427,7 @@ optimism:
   technicalStack: opstack
 optimismsepolia:
   blockExplorers:
-    - apiKey: JMYR3W6HHVPQ1HH8T6W8HSZVG88IH3MHRU
-      apiUrl: https://api-sepolia-optimistic.etherscan.io/api
+    - apiUrl: https://api-sepolia-optimistic.etherscan.io/api
       family: etherscan
       name: OP Sepolia Explorer
       url: https://sepolia-optimistic.etherscan.io
@@ -6590,9 +5436,6 @@ optimismsepolia:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 11155420
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Optimism Sepolia
   domainId: 11155420
   gasCurrencyCoinGeckoId: ethereum
@@ -6607,10 +5450,6 @@ optimismsepolia:
   rpcUrls:
     - http: https://sepolia.optimism.io
 orderly:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.orderly.network/api
       family: blockscout
@@ -6621,9 +5460,6 @@ orderly:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 291
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Orderly L2
   domainId: 291
   gasCurrencyCoinGeckoId: ethereum
@@ -6650,9 +5486,6 @@ osmosis:
   canonicalAsset: uosmo
   chainId: osmosis-1
   contractAddressBytes: 32
-  deployer:
-    name: Mitosis
-    url: https://mitosis.org
   displayName: Osmosis
   domainId: 875
   gasCurrencyCoinGeckoId: osmosis
@@ -6661,9 +5494,6 @@ osmosis:
     denom: uosmo
   grpcUrls:
     - http: https://osmosis-grpc.publicnode.com:443
-  index:
-    chunk: 10
-    from: 14389169
   isTestnet: false
   name: osmosis
   nativeToken:
@@ -6691,12 +5521,9 @@ paradex:
     estimateBlockTime: 30
     reorgPeriod: 1
   chainId: "0x505249564154455f534e5f50415241434c4541525f4d41494e4e4554"
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Paradex
   domainId: 514051890
-  gasCurrencyCoinGeckoId: paradex-fuel
+  gasCurrencyCoinGeckoId: paradex-fuel # paradex-fuel doesn't exist on coingecko so it will default to 1
   name: paradex
   nativeToken:
     decimals: 18
@@ -6718,9 +5545,6 @@ paradexsepolia:
     estimateBlockTime: 30
     reorgPeriod: 1
   chainId: "0x505249564154455f534e5f504f54435f5345504f4c4941"
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Paradex Sepolia
   domainId: 12263410
   isTestnet: true
@@ -6734,10 +5558,6 @@ paradexsepolia:
   rpcUrls:
     - http: https://pathfinder.api.testnet.paradex.trade/rpc/v0_8
 peaq:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://peaq.subscan.io/api
       family: other
@@ -6748,9 +5568,6 @@ peaq:
     estimateBlockTime: 6
     reorgPeriod: finalized
   chainId: 3338
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Peaq
   domainId: 3338
   gasCurrencyCoinGeckoId: peaq-2
@@ -6774,9 +5591,6 @@ piccadilly:
     confirmations: 1
     estimateBlockTime: 1
   chainId: 65100003
-  deployer:
-    name: M8B
-    url: https://m8b.dev
   displayName: Autonity Piccadilly
   displayNameShort: Piccadilly
   domainId: 65100003
@@ -6800,9 +5614,6 @@ plasma:
     estimateBlockTime: 1
     reorgPeriod: 10
   chainId: 9745
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Plasma
   domainId: 9745
   gasCurrencyCoinGeckoId: plasma
@@ -6817,10 +5628,6 @@ plasma:
     - http: https://rpc.plasma.to
   technicalStack: other
 plume:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.plume.org/api
       family: blockscout
@@ -6831,14 +5638,9 @@ plume:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 98866
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Plume
   domainId: 98866
   gasCurrencyCoinGeckoId: plume
-  index:
-    from: 9588
   name: plume
   nativeToken:
     decimals: 18
@@ -6849,10 +5651,6 @@ plume:
     - http: https://rpc.plume.org
   technicalStack: arbitrumnitro
 plumetestnet2:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://testnet-explorer.plume.org/api
       family: blockscout
@@ -6863,14 +5661,9 @@ plumetestnet2:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 98867
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Plume Testnet
   domainId: 98867
   gasCurrencyCoinGeckoId: plume
-  index:
-    from: 126532
   isTestnet: true
   name: plumetestnet2
   nativeToken:
@@ -6883,8 +5676,7 @@ plumetestnet2:
   technicalStack: arbitrumnitro
 polygon:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=137
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=137
       family: etherscan
       name: PolygonScan
       url: https://polygonscan.com
@@ -6893,9 +5685,6 @@ polygon:
     estimateBlockTime: 1.5
     reorgPeriod: finalized
   chainId: 137
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Polygon
   domainId: 137
   gasCurrencyCoinGeckoId: polygon-ecosystem-token
@@ -6922,9 +5711,6 @@ polygonamoy:
     estimateBlockTime: 1
     reorgPeriod: 10
   chainId: 80002
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Polygon Amoy
   domainId: 80002
   gasCurrencyCoinGeckoId: polygon-ecosystem-token
@@ -6941,13 +5727,8 @@ polygonamoy:
     - http: https://polygon-amoy.drpc.org
     - http: https://polygon-amoy.gateway.tenderly.co
 polygonzkevm:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=1101
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=1101
       family: etherscan
       name: PolygonScan
       url: https://zkevm.polygonscan.com
@@ -6956,9 +5737,6 @@ polygonzkevm:
     estimateBlockTime: 10
     reorgPeriod: 5
   chainId: 1101
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Polygon zkEVM
   displayNameShort: zkEVM
   domainId: 1101
@@ -6975,10 +5753,6 @@ polygonzkevm:
     - http: https://rpc.ankr.com/polygon_zkevm
   technicalStack: polygoncdk
 polynomialfi:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://polynomialscan.io/api
       family: routescan
@@ -6989,9 +5763,6 @@ polynomialfi:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 8008
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Polynomial
   domainId: 1000008008
   gasCurrencyCoinGeckoId: ethereum
@@ -7015,9 +5786,6 @@ poseidontestnet:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 31911
-  deployer:
-    name: Linuz
-    url: https://github.com/0xlinus
   displayName: Ozean Poseidon Testnet
   domainId: 31911
   isTestnet: true
@@ -7031,10 +5799,6 @@ poseidontestnet:
     - http: https://poseidon-testnet.rpc.caldera.xyz/http
   technicalStack: opstack
 prom:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://prom-blockscout.eu-north-2.gateway.fm/api/eth-rpc
       family: blockscout
@@ -7045,9 +5809,6 @@ prom:
     estimateBlockTime: 6
     reorgPeriod: 5
   chainId: 227
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Prom
   domainId: 227
   gasCurrencyCoinGeckoId: prometeus
@@ -7061,11 +5822,6 @@ prom:
     - http: https://prom-rpc.eu-north-2.gateway.fm
   technicalStack: polygoncdk
 proofofplay:
-  availability:
-    reasons:
-      - deprecated
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.apex.proofofplay.com/api/eth-rpc
       family: blockscout
@@ -7076,14 +5832,9 @@ proofofplay:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 70700
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Proof of Play Apex
   domainId: 70700
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 32018468
   name: proofofplay
   nativeToken:
     decimals: 18
@@ -7112,9 +5863,6 @@ pulsechain:
     estimateBlockTime: 10
     reorgPeriod: 10
   chainId: 369
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: PulseChain
   domainId: 369
   gasCurrencyCoinGeckoId: pulsechain
@@ -7140,9 +5888,6 @@ radix:
     estimateBlockTime: 5
     reorgPeriod: 0
   chainId: 1
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Radix
   domainId: 1633970780
   gasCurrencyCoinGeckoId: radix
@@ -7170,9 +5915,6 @@ radixtestnet:
     estimateBlockTime: 5
     reorgPeriod: 0
   chainId: 2
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Radix Stokenet
   domainId: 1280787160
   gatewayUrls:
@@ -7188,10 +5930,6 @@ radixtestnet:
   rpcUrls:
     - http: https://stokenet.radixdlt.com
 rarichain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://mainnet.explorer.rarichain.org/api
       family: blockscout
@@ -7202,14 +5940,9 @@ rarichain:
     estimateBlockTime: 30
     reorgPeriod: 0
   chainId: 1380012617
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: RARI Chain
   domainId: 1000012617
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 688784
   name: rarichain
   nativeToken:
     decimals: 18
@@ -7220,10 +5953,6 @@ rarichain:
     - http: https://mainnet.rpc.rarichain.org/http
   technicalStack: arbitrumnitro
 reactive:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://reactscan.net/api
       family: other
@@ -7234,9 +5963,6 @@ reactive:
     estimateBlockTime: 7
     reorgPeriod: 5
   chainId: 1597
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Reactive Mainnet
   domainId: 1597
   gasCurrencyCoinGeckoId: reactive-network
@@ -7260,9 +5986,6 @@ reactivekopli:
     estimateBlockTime: 7
     reorgPeriod: safe
   chainId: 5318008
-  deployer:
-    name: Reactive Network
-    url: https://reactive.network
   displayName: Kopli Reactive
   domainId: 5318008
   isTestnet: true
@@ -7275,10 +5998,6 @@ reactivekopli:
   rpcUrls:
     - http: https://kopli-rpc.rnk.dev
 real:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.re.al/api/eth-rpc
       family: blockscout
@@ -7289,14 +6008,9 @@ real:
     estimateBlockTime: 30
     reorgPeriod: 0
   chainId: 111188
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: re.al
   domainId: 111188
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 363159
   name: real
   nativeToken:
     decimals: 18
@@ -7308,10 +6022,6 @@ real:
     - http: https://tangible-real.gateway.tenderly.co
   technicalStack: arbitrumnitro
 redstone:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.redstone.xyz/api
       family: blockscout
@@ -7322,9 +6032,6 @@ redstone:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 690
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Redstone
   domainId: 690
   gasCurrencyCoinGeckoId: ethereum
@@ -7349,9 +6056,6 @@ risetestnet:
     estimateBlockTime: 1
     reorgPeriod: 60
   chainId: 11155931
-  deployer:
-    name: Epoch Protocol
-    url: https://www.epochprotocol.xyz
   displayName: Rise Testnet
   domainId: 11155931
   isTestnet: true
@@ -7365,10 +6069,6 @@ risetestnet:
     - http: https://testnet.riselabs.xyz
   technicalStack: other
 rivalz:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://rivalz.calderaexplorer.xyz/api
       family: blockscout
@@ -7382,8 +6082,6 @@ rivalz:
   displayName: Rivalz
   domainId: 753
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 21
   name: rivalz
   nativeToken:
     decimals: 18
@@ -7395,8 +6093,7 @@ rivalz:
   technicalStack: arbitrumnitro
 robinhood:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=4663
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=4663
       family: etherscan
       name: Robinhood Explorer
       url: https://robin.etherscan.io
@@ -7409,14 +6106,9 @@ robinhood:
     estimateBlockTime: 0.1
     reorgPeriod: 5
   chainId: 4663
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Robinhood Chain
   domainId: 4663
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 47247
   name: robinhood
   nativeToken:
     decimals: 18
@@ -7427,10 +6119,6 @@ robinhood:
     - http: https://rpc.mainnet.chain.robinhood.com
   technicalStack: arbitrumnitro
 rometestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://node1.testnet.romeprotocol.xyz:1000/api
       family: blockscout
@@ -7454,10 +6142,6 @@ rometestnet:
     - http: https://node1.testnet.romeprotocol.xyz
   technicalStack: other
 rometestnet2:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://romescout-testnet-1.testnet.romeprotocol.xyz/api
       family: blockscout
@@ -7481,10 +6165,6 @@ rometestnet2:
     - http: https://testnet-1.testnet.romeprotocol.xyz
   technicalStack: other
 ronin:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://app.roninchain.com/api
       family: other
@@ -7495,9 +6175,6 @@ ronin:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 2020
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Ronin
   domainId: 2020
   gasCurrencyCoinGeckoId: ronin
@@ -7513,10 +6190,6 @@ ronin:
     - http: https://ronin.drpc.org
   technicalStack: other
 rootstockmainnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://rootstock.blockscout.com/api
       family: blockscout
@@ -7537,6 +6210,10 @@ rootstockmainnet:
     symbol: RBTC
   protocol: ethereum
   rpcUrls:
+    # Note: Using Rootstock RPC api here which contains APIKEY in url.
+    # Recommended way is to get a new APIKEY whoever wants to run Hyperlane on Rootstock.
+    # RPC API Dashboard: https://dashboard.rpc.rootstock.io
+    # Developer Documentation: https://dev.rootstock.io
     - http: https://rpc.mainnet.rootstock.io/kXhXHf6TnnfW1POvr4UT0YUvujmuju-M
   technicalStack: other
 rootstocktestnet:
@@ -7550,9 +6227,6 @@ rootstocktestnet:
     estimateBlockTime: 30
     reorgPeriod: 4
   chainId: 31
-  deployer:
-    name: Rootstock
-    url: https://rootstock.io
   displayName: Rootstock Testnet
   domainId: 31
   isTestnet: true
@@ -7563,6 +6237,9 @@ rootstocktestnet:
     symbol: tRBTC
   protocol: ethereum
   rpcUrls:
+    # Note: Using Rootstock RPC api here which contains APIKEY in url.
+    # Recommended way is to get a new APIKEY whoever wants to run Hyperlane on Rootstock.
+    # RPC API Dashboard: https://dashboard.rpc.rootstock.io
     - http: https://rpc.testnet.rootstock.io/YZIZHxGCQAryubOWH7LjdtjNkSDb5J-T
 saakuru:
   blockExplorers:
@@ -7587,10 +6264,6 @@ saakuru:
   rpcUrls:
     - http: https://rpc.saakuru.network
 sanko:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.sanko.xyz/api/eth-rpc
       family: blockscout
@@ -7604,8 +6277,6 @@ sanko:
   displayName: Sanko
   domainId: 1996
   gasCurrencyCoinGeckoId: dream-machine-token
-  index:
-    from: 937117
   name: sanko
   nativeToken:
     decimals: 18
@@ -7626,9 +6297,6 @@ sapphiretestnet:
     estimateBlockTime: 6
     reorgPeriod: 0
   chainId: 23295
-  deployer:
-    name: Oasis Protocol Foundation
-    url: https://oasisprotocol.org/
   displayName: Sapphire Testnet
   domainId: 23295
   isTestnet: true
@@ -7642,13 +6310,8 @@ sapphiretestnet:
     - http: https://testnet.sapphire.oasis.io
   technicalStack: other
 scroll:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=534352
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=534352
       family: etherscan
       name: Scroll Explorer
       url: https://scrollscan.com
@@ -7657,9 +6320,6 @@ scroll:
     estimateBlockTime: 3
     reorgPeriod: 17
   chainId: 534352
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Scroll
   domainId: 534352
   gasCurrencyCoinGeckoId: ethereum
@@ -7678,10 +6338,6 @@ scroll:
     - http: https://1rpc.io/scroll
   technicalStack: other
 scrollsepolia:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://api-sepolia.scrollscan.com/api
       family: etherscan
@@ -7692,9 +6348,6 @@ scrollsepolia:
     estimateBlockTime: 3
     reorgPeriod: 1
   chainId: 534351
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Scroll Sepolia
   domainId: 534351
   gasCurrencyCoinGeckoId: ethereum
@@ -7711,13 +6364,8 @@ scrollsepolia:
     - http: https://scroll-sepolia.chainstacklabs.com
     - http: https://scroll-public.scroll-testnet.quiknode.pro
 sei:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
-    - apiKey: 487e1ac5-03f4-4473-9e73-cee721b782b5
-      apiUrl: https://seitrace.com/pacific-1/api
+    - apiUrl: https://seitrace.com/pacific-1/api
       family: etherscan
       name: Seitrace
       url: https://seitrace.com
@@ -7726,9 +6374,6 @@ sei:
     estimateBlockTime: 0.4
     reorgPeriod: 1
   chainId: 1329
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sei
   domainId: 1329
   gasCurrencyCoinGeckoId: sei-network
@@ -7755,9 +6400,6 @@ seismictestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 5124
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Seismic Testnet
   domainId: 5124
   isTestnet: true
@@ -7772,8 +6414,7 @@ seismictestnet:
   technicalStack: seismic
 sepolia:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api-sepolia.etherscan.io/api
+    - apiUrl: https://api-sepolia.etherscan.io/api
       family: etherscan
       name: Etherscan
       url: https://sepolia.etherscan.io
@@ -7782,9 +6423,6 @@ sepolia:
     estimateBlockTime: 13
     reorgPeriod: 2
   chainId: 11155111
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sepolia
   domainId: 11155111
   gasCurrencyCoinGeckoId: ethereum
@@ -7802,10 +6440,6 @@ sepolia:
     - http: https://sepolia.drpc.org
     - http: https://1rpc.io/sepolia
 shibarium:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://shibariumscan.io/api
       family: blockscout
@@ -7816,9 +6450,6 @@ shibarium:
     estimateBlockTime: 5
     reorgPeriod: finalized
   chainId: 109
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Shibarium
   domainId: 109
   gasCurrencyCoinGeckoId: bone-shibaswap
@@ -7843,9 +6474,6 @@ sketchpad:
     estimateBlockTime: 3
     reorgPeriod: 0
   chainId: 984123
-  deployer:
-    name: Codecrafting Labs
-    url: https://cclabs.tech
   displayName: Forma Sketchpad
   displayNameShort: Sketchpad
   domainId: 984123
@@ -7870,9 +6498,6 @@ smartbch:
     estimateBlockTime: 3
     reorgPeriod: 15
   chainId: 10000
-  deployer:
-    name: Goblins Cash
-    url: https://goblins.cash
   displayName: Smartbch
   domainId: 10000
   isTestnet: false
@@ -7886,10 +6511,6 @@ smartbch:
     - http: https://smartbch.greyh.at
     - http: https://rpc.smartbch.org
 snaxchain:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.snaxchain.io/api
       family: blockscout
@@ -7900,9 +6521,6 @@ snaxchain:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 2192
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: SnaxChain
   domainId: 2192
   gasCurrencyCoinGeckoId: ethereum
@@ -7926,9 +6544,6 @@ solanadevnet:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 1399811151
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Solana Devnet
   displayNameShort: Sol Devnet
   domainId: 1399811151
@@ -7953,9 +6568,6 @@ solanamainnet:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 1399811149
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Solana
   domainId: 1399811149
   gasCurrencyCoinGeckoId: solana
@@ -7980,9 +6592,6 @@ solanatestnet:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 1399811150
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Solana Testnet
   displayNameShort: Solana Testnet
   domainId: 1399811150
@@ -8008,9 +6617,6 @@ solaxy:
     estimateBlockTime: 1.2
     reorgPeriod: 0
   chainId: 1936682104
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Solaxy
   domainId: 1936682104
   gasCurrencyCoinGeckoId: solaxy
@@ -8031,9 +6637,6 @@ solotestnet:
       name: Solo Testnet Explorer
       url: https://solo-testnet.explorer.caldera.xyz
   chainId: 8884571
-  deployer:
-    name: Solo Chain
-    url: https://solo.tech/
   displayName: Solo Testnet
   domainId: 8884571
   isTestnet: true
@@ -8056,9 +6659,6 @@ somnia:
     estimateBlockTime: 0.1
     reorgPeriod: 10
   chainId: 5031
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Somnia
   domainId: 5031
   gasCurrencyCoinGeckoId: somnia
@@ -8082,13 +6682,8 @@ somniatestnet:
     estimateBlockTime: 0.1
     reorgPeriod: 1
   chainId: 50312
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Somnia Testnet
   domainId: 50312
-  index:
-    from: 12593277
   isTestnet: true
   name: somniatestnet
   nativeToken:
@@ -8110,9 +6705,6 @@ soneium:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 1868
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Soneium
   domainId: 1868
   gasCurrencyCoinGeckoId: ethereum
@@ -8127,10 +6719,6 @@ soneium:
     - http: https://rpc.soneium.org
   technicalStack: opstack
 soneiumtestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer-testnet.soneium.org/api
       family: blockscout
@@ -8141,9 +6729,6 @@ soneiumtestnet:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 1946
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Soneium Minato Testnet
   domainId: 1946
   gasCurrencyCoinGeckoId: ethereum
@@ -8157,13 +6742,8 @@ soneiumtestnet:
   rpcUrls:
     - http: https://rpc.minato.soneium.org
 sonic:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=146
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=146
       family: etherscan
       name: Sonic Explorer
       url: https://sonicscan.org
@@ -8172,9 +6752,6 @@ sonic:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 146
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sonic
   domainId: 146
   gasCurrencyCoinGeckoId: fantom
@@ -8189,13 +6766,8 @@ sonic:
     - http: https://rpc.soniclabs.com
   technicalStack: other
 sonicblaze:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
-    - apiKey: V9PP7AFQF5Q6GJSQQ5YS2UBN7GI8QCA443
-      apiUrl: https://api-testnet.sonicscan.org/api
+    - apiUrl: https://api-testnet.sonicscan.org/api
       family: etherscan
       name: Sonic Blaze Testnet Explorer
       url: https://testnet.sonicscan.org
@@ -8204,9 +6776,6 @@ sonicblaze:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 57054
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sonic Blaze Testnet
   displayNameShort: Sonic Blaze
   domainId: 57054
@@ -8231,9 +6800,6 @@ sonicsvm:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 507150715
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sonic SVM
   domainId: 507150715
   gasCurrencyCoinGeckoId: solana
@@ -8259,9 +6825,6 @@ sonicsvmtestnet:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 15153042
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sonic SVM Testnet
   displayNameShort: Sonic SVM Testnet
   domainId: 15153042
@@ -8286,9 +6849,6 @@ sonictestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 64165
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sonic Testnet
   domainId: 64165
   isTestnet: true
@@ -8301,10 +6861,6 @@ sonictestnet:
   rpcUrls:
     - http: https://rpc.testnet.soniclabs.com
 soon:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.soo.network
       family: other
@@ -8315,9 +6871,6 @@ soon:
     estimateBlockTime: 0.05
     reorgPeriod: 0
   chainId: 50075007
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: SOON
   domainId: 50075007
   gasCurrencyCoinGeckoId: ethereum
@@ -8332,10 +6885,6 @@ soon:
     - http: https://rpc.mainnet.soo.network/rpc
   technicalStack: other
 sophon:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://verification-explorer.sophon.xyz/contract_verification
       family: etherscan
@@ -8346,9 +6895,6 @@ sophon:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 50104
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sophon
   domainId: 50104
   gasCurrencyCoinGeckoId: sophon
@@ -8370,9 +6916,6 @@ sophonsepolia:
       name: Sophon Testnet Explorer
       url: https://explorer.testnet.sophon.xyz
   chainId: 531050104
-  deployer:
-    name: txFusion
-    url: https://txfusion.io
   displayName: Sophon Sepolia
   domainId: 531050104
   isTestnet: true
@@ -8386,11 +6929,6 @@ sophonsepolia:
     - http: https://rpc.testnet.sophon.xyz
   technicalStack: zksync
 sova:
-  availability:
-    reasons:
-      - deprecated
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.sova.io/api
       family: blockscout
@@ -8401,9 +6939,6 @@ sova:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 100021
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sova
   domainId: 100021
   gasCurrencyCoinGeckoId: ethereum
@@ -8417,11 +6952,6 @@ sova:
     - http: https://rpc.sova.io
   technicalStack: opstack
 sovachain:
-  availability:
-    reasons:
-      - deprecated
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.sova.io/api
       family: blockscout
@@ -8432,9 +6962,6 @@ sovachain:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 100021
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Sova
   domainId: 1000100021
   gasCurrencyCoinGeckoId: ethereum
@@ -8449,8 +6976,7 @@ sovachain:
   technicalStack: opstack
 stable:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=988
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=988
       family: etherscan
       name: Stable Explorer
       url: https://stablescan.xyz
@@ -8459,9 +6985,6 @@ stable:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 988
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Stable
   domainId: 988
   gasCurrencyCoinGeckoId: tether
@@ -8486,9 +7009,6 @@ starknet:
     estimateBlockTime: 30
     reorgPeriod: 1
   chainId: "0x534e5f4d41494e"
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Starknet
   domainId: 358974494
   gasCurrencyCoinGeckoId: starknet
@@ -8514,9 +7034,6 @@ starknetsepolia:
     estimateBlockTime: 30
     reorgPeriod: 1
   chainId: "0x534e5f5345504f4c4941"
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Starknet Sepolia
   domainId: 23448591
   isTestnet: true
@@ -8531,10 +7048,6 @@ starknetsepolia:
     - http: https://starknet-sepolia-rpc.publicnode.com
     - http: https://rpc.starknet-testnet.lava.build/
 story:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://www.storyscan.xyz/api
       family: blockscout
@@ -8545,9 +7058,6 @@ story:
     estimateBlockTime: 3
     reorgPeriod: 5
   chainId: 1514
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Story Mainnet
   domainId: 1514
   gasCurrencyCoinGeckoId: story-2
@@ -8571,9 +7081,6 @@ storyodysseytestnet:
     estimateBlockTime: 3
     reorgPeriod: 0
   chainId: 1516
-  deployer:
-    name: hoanm
-    url: https://github.com/hoanm
   displayName: Story Odyssey Testnet
   domainId: 1516
   isTestnet: true
@@ -8594,9 +7101,6 @@ storytestnet:
       name: storyexplorer
       url: https://testnet.storyscan.xyz
   chainId: 1513
-  deployer:
-    name: atuser14
-    url: https://github.com/atuser14
   displayName: Story Testnet
   domainId: 1513
   isTestnet: true
@@ -8612,11 +7116,6 @@ storytestnet:
   transactionOverrides:
     gasPrice: 16000000000
 stride:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
-  bech32Prefix: stride
   blockExplorers:
     - apiUrl: https://apis.mintscan.io/v1/stride
       family: other
@@ -8629,9 +7128,6 @@ stride:
   canonicalAsset: ustrd
   chainId: stride-1
   contractAddressBytes: 32
-  deployer:
-    name: Stride Labs
-    url: https://www.stride.zone
   displayName: Stride
   domainId: 745
   gasCurrencyCoinGeckoId: stride
@@ -8640,9 +7136,6 @@ stride:
     denom: ustrd
   grpcUrls:
     - http: https://stride-grpc.publicnode.com:443
-  index:
-    chunk: 5
-    from: 9152000
   name: stride
   nativeToken:
     decimals: 6
@@ -8669,9 +7162,6 @@ stridetestnet:
     estimateBlockTime: 5
     reorgPeriod: 1
   chainId: stride-internal-1
-  deployer:
-    name: Stride Labs
-    url: https://www.stride.zone
   displayName: Stride Testnet
   domainId: 1651
   gasCurrencyCoinGeckoId: stride
@@ -8703,9 +7193,6 @@ suavetoliman:
     estimateBlockTime: 4
     reorgPeriod: 1
   chainId: 33626250
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: SUAVE Toliman Testnet
   domainId: 33626250
   gasCurrencyCoinGeckoId: ethereum
@@ -8729,9 +7216,6 @@ subtensor:
     estimateBlockTime: 12
     reorgPeriod: 5
   chainId: 964
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Subtensor
   domainId: 964
   gasCurrencyCoinGeckoId: bittensor
@@ -8745,18 +7229,11 @@ subtensor:
     - http: https://bittensor-finney.api.onfinality.io/public
   technicalStack: other
 subtensortestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blocks:
     confirmations: 1
     estimateBlockTime: 12
     reorgPeriod: 1
   chainId: 945
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Subtensor Testnet
   domainId: 945
   gasCurrencyCoinGeckoId: bittensor
@@ -8771,10 +7248,6 @@ subtensortestnet:
     - http: https://test.finney.opentensor.ai
   technicalStack: other
 superpositionmainnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.superposition.so/api
       family: blockscout
@@ -8785,14 +7258,9 @@ superpositionmainnet:
     estimateBlockTime: 60
     reorgPeriod: 0
   chainId: 55244
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Superposition
   domainId: 1000055244
   gasCurrencyCoinGeckoId: ethereum
-  index:
-    from: 2743
   name: superpositionmainnet
   nativeToken:
     decimals: 18
@@ -8803,10 +7271,6 @@ superpositionmainnet:
     - http: https://rpc.superposition.so
   technicalStack: arbitrumnitro
 superpositiontestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://testnet-explorer.superposition.so/api
       family: blockscout
@@ -8817,14 +7281,9 @@ superpositiontestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 98985
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Superposition Testnet
   domainId: 98985
   gasCurrencyCoinGeckoId: superposition
-  index:
-    from: 3111622
   isTestnet: true
   name: superpositiontestnet
   nativeToken:
@@ -8836,10 +7295,6 @@ superpositiontestnet:
     - http: https://testnet-rpc.superposition.so
   technicalStack: arbitrumnitro
 superseed:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.superseed.xyz/api
       family: blockscout
@@ -8854,9 +7309,6 @@ superseed:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 5330
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Superseed
   domainId: 5330
   gasCurrencyCoinGeckoId: ethereum
@@ -8877,9 +7329,6 @@ superseedtestnet:
       name: Superseed Sepolia Explorer
       url: https://sepolia-explorer.superseed.xyz
   chainId: 53302
-  deployer:
-    name: Fazleiw
-    url: https://github.com/Fazleiw
   displayName: Superseed Testnet
   domainId: 53302
   isTestnet: true
@@ -8892,10 +7341,6 @@ superseedtestnet:
   rpcUrls:
     - http: https://sepolia.superseed.xyz
 svmbnb:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.svmbnbmainnet.soo.network
       family: other
@@ -8906,9 +7351,6 @@ svmbnb:
     estimateBlockTime: 0.4
     reorgPeriod: 0
   chainId: 574456
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: svmBNB
   domainId: 574456
   gasCurrencyCoinGeckoId: binancecoin
@@ -8922,10 +7364,6 @@ svmbnb:
     - http: https://rpc.svmbnbmainnet.soo.network/rpc
   technicalStack: other
 swell:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.swellnetwork.io/api
       family: blockscout
@@ -8936,9 +7374,6 @@ swell:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 1923
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Swell
   domainId: 1923
   gasCurrencyCoinGeckoId: ethereum
@@ -8963,9 +7398,6 @@ swisstroniktestnet:
     estimateBlockTime: 5
     reorgPeriod: 1
   chainId: 1291
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Swisstronik Testnet
   domainId: 1291
   isTestnet: true
@@ -8989,9 +7421,6 @@ syscoin:
     estimateBlockTime: 150
     reorgPeriod: 5
   chainId: 57
-  deployer:
-    name: Syscoin
-    url: https://syscoin.org
   displayName: Syscoin NEVM
   domainId: 57
   isTestnet: false
@@ -9005,10 +7434,6 @@ syscoin:
     - http: https://rpc.syscoin.org
   technicalStack: other
 tac:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.tac.build/api
       family: blockscout
@@ -9019,9 +7444,6 @@ tac:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 239
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: TAC
   domainId: 239
   gasCurrencyCoinGeckoId: tac-ton-evm
@@ -9036,13 +7458,8 @@ tac:
     - http: https://rpc.ankr.com/tac
   technicalStack: other
 taiko:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=167000
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=167000
       family: etherscan
       name: Taikoscan
       url: https://taikoscan.io
@@ -9051,9 +7468,6 @@ taiko:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 167000
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Taiko
   domainId: 167000
   gasCurrencyCoinGeckoId: ethereum
@@ -9074,9 +7488,6 @@ taikohekla:
       name: Taiko Hekla Explorer
       url: https://hekla.taikoscan.network
   chainId: 167009
-  deployer:
-    name: tmr
-    url: https://t.me/netimer
   displayName: Taiko Hekla
   domainId: 167009
   isTestnet: true
@@ -9090,10 +7501,6 @@ taikohekla:
     - http: https://taiko-hekla.drpc.org
     - http: https://rpc.hekla.taiko.xyz
 tangle:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.tangle.tools/api
       family: blockscout
@@ -9104,9 +7511,6 @@ tangle:
     estimateBlockTime: 6
     reorgPeriod: finalized
   chainId: 5845
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Tangle
   domainId: 5845
   gasCurrencyCoinGeckoId: tangle-network
@@ -9121,10 +7525,6 @@ tangle:
     - http: https://rpc.tangle.tools
   technicalStack: polkadotsubstrate
 tangletestnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://testnet-explorer.tangle.tools/api
       family: blockscout
@@ -9135,9 +7535,6 @@ tangletestnet:
     estimateBlockTime: 6
     reorgPeriod: 0
   chainId: 3799
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Tangle Testnet
   domainId: 3799
   isTestnet: true
@@ -9160,9 +7557,6 @@ taraxa:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 841
-  deployer:
-    name: VargaElod23
-    url: https://github.com/VargaElod23
   displayName: Taraxa
   domainId: 841
   gasCurrencyCoinGeckoId: tara
@@ -9187,9 +7581,6 @@ tatara:
     estimateBlockTime: 1
     reorgPeriod: 60
   chainId: 129399
-  deployer:
-    name: Epoch Protocol
-    url: https://www.epochprotocol.xyz
   displayName: Tatara
   domainId: 129399
   isTestnet: true
@@ -9213,9 +7604,6 @@ tea:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 6122
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Tea
   domainId: 6122
   gasCurrencyCoinGeckoId: tea-protocol
@@ -9229,10 +7617,6 @@ tea:
     - http: https://rpc.tea.xyz
   technicalStack: opstack
 telos:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://www.teloscan.io/api
       family: other
@@ -9267,9 +7651,6 @@ tempo:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 4217
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Tempo
   domainId: 4217
   gasCurrencyCoinGeckoId: usd-coin
@@ -9319,9 +7700,6 @@ terraclassic:
     reorgPeriod: 1
   chainId: columbus-5
   contractAddressBytes: 32
-  deployer:
-    name: Terra Classic Community
-    url: https://github.com/terra-classic-hyperlane
   displayName: Terra Classic
   displayNameShort: Terra Classic
   domainId: 132556
@@ -9330,8 +7708,6 @@ terraclassic:
     denom: uluna
   grpcUrls:
     - http: https://terra-classic-grpc.publicnode.com:443
-  index:
-    from: 28905457
   logoURI: /chains/terraclassic/logo.svg
   name: terraclassic
   nativeToken:
@@ -9363,9 +7739,6 @@ terraclassictestnet:
     reorgPeriod: 1
   chainId: rebel-2
   contractAddressBytes: 32
-  deployer:
-    name: Terra Classic Community
-    url: https://github.com/terra-classic-hyperlane
   displayName: Terra Classic Testnet
   displayNameShort: TC Testnet
   domainId: 1325
@@ -9374,8 +7747,6 @@ terraclassictestnet:
     denom: uluna
   grpcUrls:
     - http: https://grpc.terra-classic.hexxagon.dev
-  index:
-    from: 29600000
   isTestnet: true
   logoURI: /chains/terraclassictestnet/logo.svg
   name: terraclassictestnet
@@ -9392,10 +7763,6 @@ terraclassictestnet:
   slip44: 330
   technicalStack: other
 torus:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://blockscout.torus.network/api
       family: blockscout
@@ -9406,9 +7773,6 @@ torus:
     estimateBlockTime: 8
     reorgPeriod: finalized
   chainId: 21000
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Torus
   domainId: 21000
   gasCurrencyCoinGeckoId: torus
@@ -9423,10 +7787,6 @@ torus:
     - http: https://api.torus.network
   technicalStack: polkadotsubstrate
 treasure:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://rpc-explorer-verify.treasure.lol/contract_verification
       family: etherscan
@@ -9461,9 +7821,6 @@ tron:
     estimateBlockTime: 3
     reorgPeriod: finalized
   chainId: 728126428
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Tron
   domainId: 728126428
   gasCurrencyCoinGeckoId: tron
@@ -9491,9 +7848,6 @@ tronshasta:
     estimateBlockTime: 3
     reorgPeriod: 20
   chainId: 2494104990
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Tron Testnet
   domainId: 346621343
   isTestnet: true
@@ -9511,10 +7865,6 @@ tronshasta:
   walletUrls:
     - http: https://api.shasta.trongrid.io/wallet
 trumpchain:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.trumpchain.dev/api
       family: blockscout
@@ -9528,8 +7878,6 @@ trumpchain:
   displayName: TRUMPCHAIN
   domainId: 4547
   gasCurrencyCoinGeckoId: official-trump
-  index:
-    from: 18
   name: trumpchain
   nativeToken:
     decimals: 18
@@ -9540,29 +7888,35 @@ trumpchain:
     - http: https://rpc.trumpchain.dev
   technicalStack: arbitrumnitro
 turkchain:
+
   blockExplorers:
     - apiUrl: https://turkscan.com/api
       family: blockscout
       name: Turkscan
       url: https://turkscan.com
+
   blocks:
     confirmations: 1
     estimateBlockTime: 2
     reorgPeriod: 1
+
   chainId: 1919
-  deployer:
-    address: 3.618698821484354e+47
-    name: Turkchain
-    url: https://turkscan.com
+
   displayName: Turkchain
+
   domainId: 1919
+
   isTestnet: false
+
   name: turkchain
+
   nativeToken:
     decimals: 18
     name: TC
     symbol: TURK
+
   protocol: ethereum
+
   rpcUrls:
     - http: https://rpc.turkscan.com
       webSocket: wss://evm-ws.turkscan.com
@@ -9573,9 +7927,6 @@ u2utestnet:
       name: u2uscan
       url: https://testnet.u2uscan.xyz
   chainId: 2484
-  deployer:
-    name: junayedmh
-    url: https://github.com/JunayedMh
   displayName: U2U Testnet
   domainId: 2484
   isTestnet: true
@@ -9589,8 +7940,7 @@ u2utestnet:
     - http: https://rpc-nebulas-testnet.uniultra.xyz
 unichain:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=130
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=130
       family: etherscan
       name: Unichain Explorer
       url: https://uniscan.xyz
@@ -9603,9 +7953,6 @@ unichain:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 130
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Unichain
   domainId: 130
   gasCurrencyCoinGeckoId: ethereum
@@ -9620,10 +7967,6 @@ unichain:
     - http: https://mainnet.unichain.org
   technicalStack: opstack
 unichaintestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://unichain-sepolia.blockscout.com/api
       family: blockscout
@@ -9634,9 +7977,6 @@ unichaintestnet:
     estimateBlockTime: 1
     reorgPeriod: 1
   chainId: 1301
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Unichain Testnet
   domainId: 1301
   isTestnet: true
@@ -9649,10 +7989,6 @@ unichaintestnet:
   rpcUrls:
     - http: https://sepolia.unichain.org
 unitzero:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.unit0.dev/api
       family: blockscout
@@ -9676,10 +8012,6 @@ unitzero:
     - http: https://rpc.unit0.dev
   technicalStack: other
 vana:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://vanascan.io/api/eth-rpc
       family: blockscout
@@ -9690,9 +8022,6 @@ vana:
     estimateBlockTime: 6
     reorgPeriod: 5
   chainId: 1480
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Vana
   domainId: 1480
   gasCurrencyCoinGeckoId: vana
@@ -9716,9 +8045,6 @@ viction:
     estimateBlockTime: 2
     reorgPeriod: 15
   chainId: 88
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Viction
   domainId: 88
   gasCurrencyCoinGeckoId: tomochain
@@ -9744,9 +8070,6 @@ wardenprotocol:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 8765
-  deployer:
-    name: Warden Labs
-    url: https://wardenprotocol.org
   displayName: Warden Protocol
   domainId: 8765
   gasCurrencyCoinGeckoId: warden-2
@@ -9761,10 +8084,6 @@ wardenprotocol:
     - http: https://evm.wardenprotocol.org
   technicalStack: other
 weavevmtestnet:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.load.network/api
       family: blockscout
@@ -9775,9 +8094,6 @@ weavevmtestnet:
     estimateBlockTime: 2
     reorgPeriod: 1
   chainId: 9496
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Load Network Alphanet
   domainId: 9496
   isTestnet: true
@@ -9792,8 +8108,7 @@ weavevmtestnet:
   technicalStack: other
 worldchain:
   blockExplorers:
-    - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-      apiUrl: https://api.etherscan.io/v2/api?chainid=480
+    - apiUrl: https://api.etherscan.io/v2/api?chainid=480
       family: etherscan
       name: Worldscan
       url: https://worldscan.org
@@ -9806,9 +8121,6 @@ worldchain:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 480
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: World Chain
   domainId: 480
   gasCurrencyCoinGeckoId: ethereum
@@ -9825,10 +8137,6 @@ worldchain:
     - http: https://worldchain-mainnet.g.alchemy.com/public
   technicalStack: opstack
 xai:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.xai-chain.net/api
       family: blockscout
@@ -9839,14 +8147,9 @@ xai:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 660279
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Xai
   domainId: 660279
   gasCurrencyCoinGeckoId: xai-blockchain
-  index:
-    from: 24395308
   name: xai
   nativeToken:
     decimals: 18
@@ -9867,9 +8170,6 @@ xlayer:
     estimateBlockTime: 1
     reorgPeriod: 5
   chainId: 196
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: XLayer
   displayNameShort: XLayer
   domainId: 196
@@ -9886,10 +8186,6 @@ xlayer:
     - http: https://rpc.xlayer.tech
   technicalStack: polygoncdk
 xpla:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.xpla.io/mainnet/api
       family: other
@@ -9913,10 +8209,6 @@ xpla:
     - http: https://dimension-evm-rpc.xpla.dev
   technicalStack: other
 xrplevm:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.xrplevm.org/api
       family: blockscout
@@ -9927,9 +8219,6 @@ xrplevm:
     estimateBlockTime: 6
     reorgPeriod: 5
   chainId: 1440000
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: XRPL EVM
   domainId: 1440000
   gasCurrencyCoinGeckoId: ripple
@@ -9945,6 +8234,8 @@ xrplevm:
 zerogravity:
   blockExplorers:
     - apiUrl: https://chainscan.0g.ai/open/api
+      # Not `routescan`: chainscan answers eth_getLogs with `status: 1` and an
+      # empty result, which the SDK would take as authoritative.
       family: other
       name: 0G Explorer
       url: https://chainscan.0g.ai
@@ -9953,9 +8244,6 @@ zerogravity:
     estimateBlockTime: 0.4
     reorgPeriod: 10
   chainId: 16661
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: 0G
   domainId: 16661
   gasCurrencyCoinGeckoId: zero-gravity
@@ -9970,10 +8258,6 @@ zerogravity:
     - http: https://evmrpc.0g.ai
   technicalStack: other
 zeronetwork:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.zero.network
       family: other
@@ -9984,9 +8268,6 @@ zeronetwork:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 543210
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Zero Network
   domainId: 543210
   gasCurrencyCoinGeckoId: ethereum
@@ -10002,10 +8283,6 @@ zeronetwork:
     - http: https://zero.drpc.org
   technicalStack: zksync
 zetachain:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.zetachain.com
       family: other
@@ -10016,9 +8293,6 @@ zetachain:
     estimateBlockTime: 6
     reorgPeriod: 0
   chainId: 7000
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: ZetaChain
   domainId: 7000
   gasCurrencyCoinGeckoId: zetachain
@@ -10034,10 +8308,6 @@ zetachain:
     - http: https://zetachain-mainnet.g.allthatnode.com/archive/evm
   technicalStack: other
 zircuit:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.zircuit.com/api/contractVerifyHardhat
       family: etherscan
@@ -10048,9 +8318,6 @@ zircuit:
     estimateBlockTime: 2
     reorgPeriod: 300
   chainId: 48900
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Zircuit
   domainId: 48900
   gasCurrencyCoinGeckoId: ethereum
@@ -10067,10 +8334,6 @@ zircuit:
     - http: https://zircuit-mainnet.drpc.org
   technicalStack: opstack
 zklink:
-  availability:
-    reasons:
-      - unavailable
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.zklink.io/contract_verification
       family: etherscan
@@ -10096,10 +8359,6 @@ zklink:
     - http: https://rpc.zklink.io
   technicalStack: zksync
 zksync:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://zksync2-mainnet-explorer.zksync.io/contract_verification
       family: etherscan
@@ -10110,9 +8369,6 @@ zksync:
     estimateBlockTime: 1
     reorgPeriod: 0
   chainId: 324
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: zkSync
   domainId: 324
   gasCurrencyCoinGeckoId: ethereum
@@ -10133,9 +8389,6 @@ zksyncsepolia:
       name: zkSync Sepolia Explorer
       url: https://sepolia.explorer.zksync.io
   chainId: 300
-  deployer:
-    name: txFusion
-    url: https://txfusion.io
   displayName: zkSync Sepolia Testnet
   domainId: 300
   isTestnet: true
@@ -10149,10 +8402,6 @@ zksyncsepolia:
     - http: https://sepolia.era.zksync.dev
   technicalStack: zksync
 zoramainnet:
-  availability:
-    reasons:
-      - deprecated
-    status: disabled
   blockExplorers:
     - apiUrl: https://explorer.zora.energy/api
       family: blockscout
@@ -10163,9 +8412,6 @@ zoramainnet:
     estimateBlockTime: 2
     reorgPeriod: 5
   chainId: 7777777
-  deployer:
-    name: Abacus Works
-    url: https://www.hyperlane.xyz
   displayName: Zora
   domainId: 7777777
   gasCurrencyCoinGeckoId: ethereum
@@ -10186,9 +8432,6 @@ zoratestnet:
       name: Zora Testnet Explorer
       url: https://sepolia.explorer.zora.energy
   chainId: 999999999
-  deployer:
-    name: guy93354
-    url: https://github.com/guy93354
   displayName: Zora Testnet
   domainId: 999999999
   gnosisSafeTransactionServiceUrl: https://transaction-zora-sepolia.safe.optimism.io

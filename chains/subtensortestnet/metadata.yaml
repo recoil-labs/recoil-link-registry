@@ -1,15 +1,9 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blocks:
   confirmations: 1
   estimateBlockTime: 12
   reorgPeriod: 1
 chainId: 945
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Subtensor Testnet
 domainId: 945
 gasCurrencyCoinGeckoId: bittensor

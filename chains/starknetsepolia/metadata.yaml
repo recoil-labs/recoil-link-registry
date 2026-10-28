@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 30
   reorgPeriod: 1
 chainId: "0x534e5f5345504f4c4941"
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Starknet Sepolia
 domainId: 23448591
 isTestnet: true

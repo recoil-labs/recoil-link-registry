@@ -5,9 +5,6 @@ blockExplorers:
     name: Mantle Testnet Explorer
     url: https://sepolia.mantlescan.xyz
 chainId: 5003
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Mantle Sepolia
 domainId: 5003
 isTestnet: true

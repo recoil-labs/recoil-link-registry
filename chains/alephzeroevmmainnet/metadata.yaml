@@ -1,6 +1,3 @@
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://evm-explorer.alephzero.org/api
     family: blockscout
@@ -11,15 +8,10 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 5
 chainId: 41455
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Aleph Zero EVM
 displayNameShort: Aleph Zero EVM
 domainId: 1000041455
 gasCurrencyCoinGeckoId: aleph-zero
-index:
-  from: 4243354
 name: alephzeroevmmainnet
 nativeToken:
   decimals: 18

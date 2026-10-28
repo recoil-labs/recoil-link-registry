@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: NIF3616T2AP6EHYWIHJEKR1HCMA2K7D96X
-    apiUrl: https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan/api
+  - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/43114/etherscan/api
     family: routescan
     name: SnowTrace
     url: https://snowtrace.io
@@ -10,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 3
 chainId: 43114
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Avalanche
 domainId: 43114
 gasCurrencyCoinGeckoId: avalanche-2

@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 10
 chainId: 52014
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Electroneum
 domainId: 52014
 gasCurrencyCoinGeckoId: electroneum

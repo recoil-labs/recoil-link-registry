@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.forma.art/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 0
 chainId: 984122
-deployer:
-  name: Codecrafting Labs
-  url: https://cclabs.tech
 displayName: Forma
 displayNameShort: Forma
 domainId: 984122

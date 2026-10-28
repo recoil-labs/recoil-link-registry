@@ -13,9 +13,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 34443
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Mode
 domainId: 34443
 gasCurrencyCoinGeckoId: ethereum

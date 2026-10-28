@@ -1,7 +1,6 @@
 # yaml-language-server: $schema=../schema.json
 blockExplorers:
-  - apiKey: GP69JEAP2W7YFJT9ZJTEPGQT6Y6KMW44ZN
-    apiUrl: https://api.etherscan.io/v2/api?chainid=480
+  - apiUrl: https://api.etherscan.io/v2/api?chainid=480
     family: etherscan
     name: Worldscan
     url: https://worldscan.org
@@ -14,9 +13,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 480
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: World Chain
 domainId: 480
 gasCurrencyCoinGeckoId: ethereum

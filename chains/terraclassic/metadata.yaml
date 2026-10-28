@@ -11,9 +11,6 @@ blocks:
   reorgPeriod: 1
 chainId: columbus-5
 contractAddressBytes: 32
-deployer:
-  name: Terra Classic Community
-  url: https://github.com/terra-classic-hyperlane
 displayName: Terra Classic
 displayNameShort: Terra Classic
 domainId: 132556
@@ -22,8 +19,6 @@ gasPrice:
   denom: uluna
 grpcUrls:
   - http: https://terra-classic-grpc.publicnode.com:443
-index:
-  from: 28905457
 logoURI: /chains/terraclassic/logo.svg
 name: terraclassic
 nativeToken:

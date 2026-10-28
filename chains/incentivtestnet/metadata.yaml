@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer-testnet.incentiv.io/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 10
   reorgPeriod: 1
 chainId: 28802
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Incentiv Testnet v2
 domainId: 28802
 isTestnet: true

@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 2288
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Moca Chain
 domainId: 2288
 gasCurrencyCoinGeckoId: mocaverse

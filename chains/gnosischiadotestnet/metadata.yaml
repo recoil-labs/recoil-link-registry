@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 5
 chainId: 10200
-deployer:
-  name: k4ctuss
-  url: https://github.com/k4ctuss
 displayName: Gnosis Chiado Testnet
 domainId: 10200
 isTestnet: true

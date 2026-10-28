@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 0
 chainId: 41443
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Nesa
 domainId: 41443
 gasCurrencyCoinGeckoId: nesa-ai-token

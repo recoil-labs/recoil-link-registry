@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 4217
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Tempo
 domainId: 4217
 gasCurrencyCoinGeckoId: usd-coin

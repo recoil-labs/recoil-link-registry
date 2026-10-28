@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.soo.network
     family: other
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 0.05
   reorgPeriod: 0
 chainId: 50075007
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: SOON
 domainId: 50075007
 gasCurrencyCoinGeckoId: ethereum

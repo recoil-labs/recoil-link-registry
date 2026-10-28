@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 1783
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Kiichain
 domainId: 1783
 gasCurrencyCoinGeckoId: kiichain

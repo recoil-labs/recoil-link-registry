@@ -10,9 +10,6 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 0
 chainId: 1
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Radix
 # Generated from: parseInt('0x'+Buffer.from('radix').toString('hex')) % (2**31-1)
 domainId: 1633970780

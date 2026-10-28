@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 2
 chainId: 3888
-deployer:
-  name: Kaly Chain
-  url: https://www.kalychain.io
 displayName: KalyChain
 domainId: 3888
 name: kalychain

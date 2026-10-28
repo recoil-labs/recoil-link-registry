@@ -1,8 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
-bech32Prefix: noble
 blockExplorers:
   - apiUrl: https://www.mintscan.io/noble
     family: other
@@ -15,9 +11,6 @@ blocks:
 canonicalAsset: uusdn
 chainId: noble-1
 contractAddressBytes: 32
-deployer:
-  name: Noble
-  url: https://noble.xyz
 displayName: Noble
 # Generated from: console.log(parseInt('0x'+Buffer.from('NOBL').toString('hex')))
 domainId: 1313817164
@@ -28,9 +21,6 @@ gasPrice:
 grpcUrls:
   - http: http://noble-grpc.polkachu.com:21590
   - http: https://grpc.noble.xyz:443
-index:
-  chunk: 10
-  from: 28613000
 name: noble
 nativeToken:
   decimals: 6

@@ -5,9 +5,6 @@ blockExplorers:
     name: Lisk Sepolia Testnet Explorer
     url: https://sepolia-blockscout.lisk.com
 chainId: 4202
-deployer:
-  name: guy93354
-  url: https://github.com/guy93354
 displayName: Lisk Sepolia
 domainId: 4202
 gnosisSafeTransactionServiceUrl: https://transaction-lisk-sepolia.safe.optimism.io

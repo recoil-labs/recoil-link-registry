@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://api.routescan.io/v2/network/mainnet/evm/88888/etherscan/api
     family: routescan
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 3
   reorgPeriod: 9
 chainId: 88888
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Chiliz
 domainId: 1000088888
 gasCurrencyCoinGeckoId: chiliz

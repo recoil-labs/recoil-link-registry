@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.xai-chain.net/api
     family: blockscout
@@ -12,14 +9,9 @@ blocks:
   estimateBlockTime: 1
   reorgPeriod: 5
 chainId: 660279
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Xai
 domainId: 660279
 gasCurrencyCoinGeckoId: xai-blockchain
-index:
-  from: 24395308
 name: xai
 nativeToken:
   decimals: 18

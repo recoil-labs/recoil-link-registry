@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://explorer.snaxchain.io/api
     family: blockscout
@@ -12,9 +9,6 @@ blocks:
   estimateBlockTime: 2
   reorgPeriod: 5
 chainId: 2192
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: SnaxChain
 domainId: 2192
 gasCurrencyCoinGeckoId: ethereum

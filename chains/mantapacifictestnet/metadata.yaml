@@ -5,9 +5,6 @@ blockExplorers:
     name: Manta Sepolia Explorer
     url: https://pacific-explorer.sepolia-testnet.manta.network
 chainId: 3441006
-deployer:
-  name: JaunePomme
-  url: https://github.com/JaunePomme
 displayName: Manta Pacific Testnet
 domainId: 3441006
 isTestnet: true

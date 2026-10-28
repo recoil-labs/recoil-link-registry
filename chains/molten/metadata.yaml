@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [deprecated]
-  status: disabled
 blockExplorers:
   - apiUrl: https://molten.calderaexplorer.xyz/api
     family: blockscout
@@ -12,14 +9,9 @@ blocks:
   estimateBlockTime: 30
   reorgPeriod: 0
 chainId: 360
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Molten
 domainId: 360
 gasCurrencyCoinGeckoId: molten-2
-index:
-  from: 4707345
 name: molten
 nativeToken:
   decimals: 18

@@ -13,14 +13,9 @@ blocks:
   estimateBlockTime: 5
   reorgPeriod: 5
 chainId: 1088
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Metis Andromeda
 domainId: 1088
 gasCurrencyCoinGeckoId: metis-token
-index:
-  from: 17966274
 name: metis
 nativeToken:
   decimals: 18

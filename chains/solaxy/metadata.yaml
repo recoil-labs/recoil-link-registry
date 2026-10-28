@@ -9,9 +9,6 @@ blocks:
   estimateBlockTime: 1.2
   reorgPeriod: 0
 chainId: 1936682104
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: Solaxy
 domainId: 1936682104
 gasCurrencyCoinGeckoId: solaxy

@@ -1,7 +1,4 @@
 # yaml-language-server: $schema=../schema.json
-availability:
-  reasons: [unavailable]
-  status: disabled
 blockExplorers:
   - apiUrl: https://conwai.calderaexplorer.xyz/api
     family: blockscout
@@ -15,8 +12,6 @@ chainId: 668668
 displayName: Conwai
 domainId: 668668
 gasCurrencyCoinGeckoId: conwai
-index:
-  from: 73
 name: conwai
 nativeToken:
   decimals: 18

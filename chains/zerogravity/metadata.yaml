@@ -11,9 +11,6 @@ blocks:
   estimateBlockTime: 0.4
   reorgPeriod: 10
 chainId: 16661
-deployer:
-  name: Abacus Works
-  url: https://www.hyperlane.xyz
 displayName: 0G
 domainId: 16661
 gasCurrencyCoinGeckoId: zero-gravity
