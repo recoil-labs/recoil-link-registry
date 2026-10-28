@@ -11,6 +11,8 @@ chainId: 1380012617
 displayName: DEPRECATED RARI Chain
 domainId: 1380012617
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 541753
 name: deprecatedrari
 nativeToken:
   decimals: 18

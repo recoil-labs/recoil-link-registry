@@ -15,6 +15,9 @@ gasPrice:
   denom: utia
 grpcUrls:
   - http: http://public-celestia-mocha4-consensus.numia.xyz:9090
+index:
+  chunk: 10
+  from: 6915786
 isTestnet: true
 name: celestiatestnet
 nativeToken:

@@ -10,6 +10,8 @@ blocks:
 chainId: 76672
 displayName: CarrChain Testnet
 domainId: 76672
+index:
+  from: 117
 isTestnet: true
 name: carrchaintestnet
 nativeToken:

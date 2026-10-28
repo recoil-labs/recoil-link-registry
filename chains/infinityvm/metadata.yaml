@@ -7,6 +7,8 @@ chainId: 1032009
 displayName: Infinity VM
 domainId: 1032009
 gasCurrencyCoinGeckoId: infinityvm
+index:
+  from: 157889
 name: infinityvm
 nativeToken:
   decimals: 18

@@ -12,6 +12,8 @@ chainId: 753
 displayName: Rivalz
 domainId: 753
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 21
 name: rivalz
 nativeToken:
   decimals: 18

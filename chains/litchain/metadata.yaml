@@ -12,6 +12,8 @@ chainId: 175200
 displayName: Lit Chain
 domainId: 175200
 gasCurrencyCoinGeckoId: lit-protocol
+index:
+  from: 854
 name: litchain
 nativeToken:
   decimals: 18

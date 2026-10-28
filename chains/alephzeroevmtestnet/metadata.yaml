@@ -11,6 +11,8 @@ blocks:
 chainId: 2039
 displayName: Aleph Zero EVM Testnet
 domainId: 2039
+index:
+  from: 1380870
 isTestnet: true
 name: alephzeroevmtestnet
 nativeToken:

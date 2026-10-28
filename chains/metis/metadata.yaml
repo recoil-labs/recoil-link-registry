@@ -16,6 +16,8 @@ chainId: 1088
 displayName: Metis Andromeda
 domainId: 1088
 gasCurrencyCoinGeckoId: metis-token
+index:
+  from: 17966274
 name: metis
 nativeToken:
   decimals: 18

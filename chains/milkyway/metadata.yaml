@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=../schema.json
+bech32Prefix: milk
 blocks:
   confirmations: 1
   estimateBlockTime: 6
@@ -15,6 +16,9 @@ gasPrice:
   denom: umilk
 grpcUrls:
   - http: https://grpc.mainnet.milkyway.zone/
+index:
+  chunk: 10
+  from: 2249100
 name: milkyway
 nativeToken:
   decimals: 6

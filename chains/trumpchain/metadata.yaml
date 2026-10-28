@@ -12,6 +12,8 @@ chainId: 4547
 displayName: TRUMPCHAIN
 domainId: 4547
 gasCurrencyCoinGeckoId: official-trump
+index:
+  from: 18
 name: trumpchain
 nativeToken:
   decimals: 18

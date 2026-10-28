@@ -11,6 +11,8 @@ chainId: 1380012617
 displayName: RARI Chain
 domainId: 1000012617
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 688784
 name: rarichain
 nativeToken:
   decimals: 18

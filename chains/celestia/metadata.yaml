@@ -25,6 +25,9 @@ gasPrice:
   denom: utia
 grpcUrls:
   - http: https://celestia-grpc.publicnode.com:443
+index:
+  chunk: 10
+  from: 6680339
 name: celestia
 nativeToken:
   decimals: 6

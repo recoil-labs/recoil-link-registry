@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=../schema.json
+bech32Prefix: noble
 blockExplorers:
   - apiUrl: https://www.mintscan.io/noble-testnet
     family: other
@@ -19,6 +20,9 @@ gasPrice:
   denom: uusdn
 grpcUrls:
   - http: http://noble-testnet-grpc.polkachu.com:21590
+index:
+  chunk: 10
+  from: 29035000
 isTestnet: true
 name: nobletestnet
 nativeToken:

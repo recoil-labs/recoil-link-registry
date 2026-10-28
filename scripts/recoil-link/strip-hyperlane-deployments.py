@@ -7,9 +7,11 @@ and addresses never leak into Recoil Link.
 Removed (only files identical to upstream/main, so our own deployments survive):
   - chains/*/addresses.yaml          Hyperlane core contract addresses
   - deployments/warp_routes, /avs    Hyperlane token routes and AVS config
-  - metadata `deployer`, `index`, `availability` blocks that still equal
+  - metadata `deployer` and `availability` blocks that still equal
     upstream's (they describe Hyperlane's deployment)
   - blockExplorers[].apiKey lines that appear upstream (Hyperlane's keys)
+`index.from` (relayer start block) is kept: the SDK requires it for Arbitrum
+Nitro chains, and an earlier start block than our deployment is harmless.
 Kept: all other chain metadata, logos, and any value Recoil Link has changed.
 """
 import pathlib
@@ -17,7 +19,7 @@ import re
 import subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
-TOP_LEVEL_KEYS = ("deployer", "index", "availability")
+TOP_LEVEL_KEYS = ("deployer", "availability")
 
 UPSTREAM = "upstream/main"
 
@@ -64,7 +66,7 @@ def top_level_blocks(text: str) -> dict:
     """Top-level key -> its full block text (key line plus indented lines)."""
     blocks, key = {}, None
     for line in text.splitlines(keepends=True):
-        m = re.match(r"^([A-Za-z]+):", line)
+        m = re.match(r"^([A-Za-z0-9_]+):", line)
         if m:
             key = m.group(1)
             blocks[key] = ""
@@ -79,7 +81,7 @@ def strip_metadata(text: str, upstream_text: str) -> str:
     upstream_lines = set(upstream_text.splitlines())
     out, skipping, promote_next = [], False, None
     for line in text.splitlines(keepends=True):
-        key = re.match(r"^([A-Za-z]+):", line)
+        key = re.match(r"^([A-Za-z0-9_]+):", line)
         if key:
             k = key.group(1)
             skipping = (

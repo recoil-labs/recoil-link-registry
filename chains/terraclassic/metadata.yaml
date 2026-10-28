@@ -19,6 +19,8 @@ gasPrice:
   denom: uluna
 grpcUrls:
   - http: https://terra-classic-grpc.publicnode.com:443
+index:
+  from: 28905457
 logoURI: /chains/terraclassic/logo.svg
 name: terraclassic
 nativeToken:

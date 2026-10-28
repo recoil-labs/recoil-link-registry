@@ -11,6 +11,8 @@ blocks:
 chainId: 175188
 displayName: Chronicle Yellowstone
 domainId: 175188
+index:
+  from: 2339059
 isTestnet: true
 name: chronicleyellowstone
 nativeToken:

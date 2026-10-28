@@ -12,6 +12,8 @@ chainId: 55244
 displayName: Superposition
 domainId: 1000055244
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 2743
 name: superpositionmainnet
 nativeToken:
   decimals: 18

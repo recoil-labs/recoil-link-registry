@@ -7,6 +7,8 @@ blockExplorers:
 chainId: 91111
 displayName: Henez Testnet
 domainId: 91111
+index:
+  from: 1714457
 isTestnet: true
 name: heneztestnet
 nativeToken:

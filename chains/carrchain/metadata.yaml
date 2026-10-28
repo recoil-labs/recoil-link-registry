@@ -11,6 +11,8 @@ chainId: 7667
 displayName: CarrChain
 domainId: 7667
 gasCurrencyCoinGeckoId: carnomaly
+index:
+  from: 40
 name: carrchain
 nativeToken:
   decimals: 18

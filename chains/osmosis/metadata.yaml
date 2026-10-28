@@ -20,6 +20,9 @@ gasPrice:
   denom: uosmo
 grpcUrls:
   - http: https://osmosis-grpc.publicnode.com:443
+index:
+  chunk: 10
+  from: 14389169
 isTestnet: false
 name: osmosis
 nativeToken:

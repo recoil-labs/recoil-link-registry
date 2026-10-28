@@ -12,6 +12,8 @@ chainId: 360
 displayName: Molten
 domainId: 360
 gasCurrencyCoinGeckoId: molten-2
+index:
+  from: 4707345
 name: molten
 nativeToken:
   decimals: 18

@@ -11,6 +11,8 @@ chainId: 666666666
 displayName: Degen
 domainId: 666666666
 gasCurrencyCoinGeckoId: degen-base
+index:
+  from: 23783929
 name: degenchain
 nativeToken:
   decimals: 18

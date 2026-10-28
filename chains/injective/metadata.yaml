@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=../schema.json
+bech32Prefix: inj
 blockExplorers:
   - apiUrl: https://apis.mintscan.io/v1/injective
     family: other
@@ -20,6 +21,9 @@ gasPrice:
   denom: inj
 grpcUrls:
   - http: https://injective-grpc.goldenratiostaking.net:443
+index:
+  chunk: 25
+  from: 58419500
 name: injective
 nativeToken:
   decimals: 18

@@ -12,6 +12,8 @@ chainId: 98866
 displayName: Plume
 domainId: 98866
 gasCurrencyCoinGeckoId: plume
+index:
+  from: 9588
 name: plume
 nativeToken:
   decimals: 18

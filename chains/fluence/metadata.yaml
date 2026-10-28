@@ -12,6 +12,8 @@ chainId: 9999999
 displayName: Fluence
 domainId: 9999999
 gasCurrencyCoinGeckoId: fluence-2
+index:
+  from: 10997212
 name: fluence
 nativeToken:
   decimals: 18

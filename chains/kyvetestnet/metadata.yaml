@@ -20,6 +20,9 @@ gasPrice:
   denom: tkyve
 grpcUrls:
   - http: https://grpc-raw.kaon.kyve.network
+index:
+  chunk: 10
+  from: 11470395
 isTestnet: true
 name: kyvetestnet
 nativeToken:

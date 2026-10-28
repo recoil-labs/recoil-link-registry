@@ -11,6 +11,8 @@ chainId: 6398
 displayName: Everclear Sepolia
 domainId: 6398
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 4950
 isTestnet: true
 name: connextsepolia
 nativeToken:

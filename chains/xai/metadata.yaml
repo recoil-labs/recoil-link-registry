@@ -12,6 +12,8 @@ chainId: 660279
 displayName: Xai
 domainId: 660279
 gasCurrencyCoinGeckoId: xai-blockchain
+index:
+  from: 24395308
 name: xai
 nativeToken:
   decimals: 18

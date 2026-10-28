@@ -11,6 +11,8 @@ blocks:
 chainId: 50312
 displayName: Somnia Testnet
 domainId: 50312
+index:
+  from: 12593277
 isTestnet: true
 name: somniatestnet
 nativeToken:

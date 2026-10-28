@@ -13,6 +13,8 @@ displayName: Echos
 displayNameShort: Echos
 domainId: 4321
 gasCurrencyCoinGeckoId: usd-coin
+index:
+  from: 3206000
 name: echos
 nativeToken:
   decimals: 18

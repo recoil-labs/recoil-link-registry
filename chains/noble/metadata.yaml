@@ -1,4 +1,5 @@
 # yaml-language-server: $schema=../schema.json
+bech32Prefix: noble
 blockExplorers:
   - apiUrl: https://www.mintscan.io/noble
     family: other
@@ -21,6 +22,9 @@ gasPrice:
 grpcUrls:
   - http: http://noble-grpc.polkachu.com:21590
   - http: https://grpc.noble.xyz:443
+index:
+  chunk: 10
+  from: 28613000
 name: noble
 nativeToken:
   decimals: 6

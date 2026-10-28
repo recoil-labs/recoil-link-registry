@@ -16,6 +16,8 @@ chainId: 33139
 displayName: ApeChain
 domainId: 33139
 gasCurrencyCoinGeckoId: apecoin
+index:
+  from: 1759561
 name: apechain
 nativeToken:
   decimals: 18

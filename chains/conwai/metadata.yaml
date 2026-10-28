@@ -12,6 +12,8 @@ chainId: 668668
 displayName: Conwai
 domainId: 668668
 gasCurrencyCoinGeckoId: conwai
+index:
+  from: 73
 name: conwai
 nativeToken:
   decimals: 18

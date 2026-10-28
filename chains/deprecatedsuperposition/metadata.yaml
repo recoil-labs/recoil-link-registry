@@ -12,6 +12,8 @@ chainId: 55244
 displayName: DEPRECATED Superposition
 domainId: 55244
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 1201
 name: deprecatedsuperposition
 nativeToken:
   decimals: 18

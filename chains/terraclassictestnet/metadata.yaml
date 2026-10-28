@@ -19,6 +19,8 @@ gasPrice:
   denom: uluna
 grpcUrls:
   - http: https://grpc.terra-classic.hexxagon.dev
+index:
+  from: 29600000
 isTestnet: true
 logoURI: /chains/terraclassictestnet/logo.svg
 name: terraclassictestnet

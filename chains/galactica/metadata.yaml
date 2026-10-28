@@ -12,6 +12,8 @@ chainId: 613419
 displayName: Galactica
 domainId: 613419
 gasCurrencyCoinGeckoId: galactica-com
+index:
+  from: 851
 isTestnet: false
 name: galactica
 nativeToken:

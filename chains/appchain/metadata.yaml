@@ -12,6 +12,8 @@ chainId: 466
 displayName: AppChain
 domainId: 466
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 190
 name: appchain
 nativeToken:
   decimals: 18

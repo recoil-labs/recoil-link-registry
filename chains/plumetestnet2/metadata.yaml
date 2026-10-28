@@ -12,6 +12,8 @@ chainId: 98867
 displayName: Plume Testnet
 domainId: 98867
 gasCurrencyCoinGeckoId: plume
+index:
+  from: 126532
 isTestnet: true
 name: plumetestnet2
 nativeToken:

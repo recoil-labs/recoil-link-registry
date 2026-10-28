@@ -12,6 +12,8 @@ chainId: 98881
 displayName: Ebi
 domainId: 98881
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 10689437
 name: ebi
 nativeToken:
   decimals: 18

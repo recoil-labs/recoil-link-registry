@@ -12,6 +12,8 @@ displayName: DEPRECATED Aleph Zero EVM
 displayNameShort: DEPRECATED Aleph Zero EVM
 domainId: 41455
 gasCurrencyCoinGeckoId: aleph-zero
+index:
+  from: 3421962
 name: deprecatedalephzeroevm
 nativeToken:
   decimals: 18

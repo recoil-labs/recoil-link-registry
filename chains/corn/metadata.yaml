@@ -12,6 +12,8 @@ chainId: 21000000
 displayName: Corn
 domainId: 21000000
 gasCurrencyCoinGeckoId: bitcoin
+index:
+  from: 55636
 name: corn
 nativeToken:
   decimals: 18

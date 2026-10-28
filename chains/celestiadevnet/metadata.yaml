@@ -15,6 +15,9 @@ gasPrice:
   denom: utia
 grpcUrls:
   - http: https://grpc.celestia-arabica-11.com:443
+index:
+  chunk: 10
+  from: 8214286
 isTestnet: true
 name: celestiadevnet
 nativeToken:

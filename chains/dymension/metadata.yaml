@@ -18,6 +18,8 @@ gasPrice:
   denom: adym
 grpcUrls:
   - http: https://grpc-dymension.mzonder.com:443
+index:
+  from: 10201794
 isTestnet: false
 name: dymension
 nativeToken:

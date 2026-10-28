@@ -12,6 +12,8 @@ chainId: 42170
 displayName: Arbitrum Nova
 domainId: 42170
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 78794208
 name: arbitrumnova
 nativeToken:
   decimals: 18

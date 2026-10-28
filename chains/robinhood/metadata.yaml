@@ -16,6 +16,8 @@ chainId: 4663
 displayName: Robinhood Chain
 domainId: 4663
 gasCurrencyCoinGeckoId: ethereum
+index:
+  from: 47247
 name: robinhood
 nativeToken:
   decimals: 18

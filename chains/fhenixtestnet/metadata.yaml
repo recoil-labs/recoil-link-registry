@@ -7,6 +7,8 @@ blockExplorers:
 chainId: 8008135
 displayName: Fhenix Helium Testnet
 domainId: 8008135
+index:
+  from: 140556
 isTestnet: true
 name: fhenixtestnet
 nativeToken:
