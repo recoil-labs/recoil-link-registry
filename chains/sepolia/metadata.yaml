@@ -9,6 +9,9 @@ blocks:
   estimateBlockTime: 13
   reorgPeriod: 2
 chainId: 11155111
+deployer:
+  name: Recoil Labs
+  url: https://github.com/recoil-labs
 displayName: Sepolia
 domainId: 11155111
 gasCurrencyCoinGeckoId: ethereum
