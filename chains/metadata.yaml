@@ -1096,6 +1096,9 @@ bsctestnet:
     estimateBlockTime: 0.45
     reorgPeriod: 9
   chainId: 97
+  deployer:
+    name: Recoil Labs
+    url: https://github.com/recoil-labs
   displayName: BSC Testnet
   domainId: 97
   gasCurrencyCoinGeckoId: binancecoin
@@ -5566,6 +5569,9 @@ optimismsepolia:
     estimateBlockTime: 2
     reorgPeriod: 0
   chainId: 11155420
+  deployer:
+    name: Recoil Labs
+    url: https://github.com/recoil-labs
   displayName: Optimism Sepolia
   domainId: 11155420
   gasCurrencyCoinGeckoId: ethereum

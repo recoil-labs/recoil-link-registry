@@ -9,6 +9,9 @@ blocks:
   estimateBlockTime: 0.45
   reorgPeriod: 9
 chainId: 97
+deployer:
+  name: Recoil Labs
+  url: https://github.com/recoil-labs
 displayName: BSC Testnet
 domainId: 97
 gasCurrencyCoinGeckoId: binancecoin
