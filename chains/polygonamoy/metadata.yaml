@@ -20,7 +20,6 @@ nativeToken:
   symbol: POL
 protocol: ethereum
 rpcUrls:
-  - http: https://rpc-amoy.polygon.technology
   - http: https://polygon-amoy-bor-rpc.publicnode.com
   - http: https://polygon-amoy.drpc.org
   - http: https://polygon-amoy.gateway.tenderly.co
